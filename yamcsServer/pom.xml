@@ -3,8 +3,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example</groupId>
-  <artifactId>trace</artifactId>
-  <version>1.1.2-SNAPSHOT</version>
+  <artifactId>trace_groundstation</artifactId>
+  <version>1.4</version>
   <packaging>jar</packaging>
 
   <name>TRACE Groundstation Software</name>
@@ -16,7 +16,7 @@
     Update this to the latest Yamcs release.
     Check https://mvnrepository.com/artifact/org.yamcs/yamcs-core
     -->
-    <yamcsVersion>5.6.0</yamcsVersion>
+    <yamcsVersion>5.8.8</yamcsVersion>
   </properties>
 
   <dependencies>
