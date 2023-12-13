@@ -101,38 +101,17 @@ class TCLink(SocketProcess):
             #for item in data:
             #    data_str += str(item)
             self.queueDict["TC_Queue"].put(data)
-            data = data[2:3]
-            match data:
-                case bytes.fromhex('a0'):
-                    command = '"Set State"'
-                case bytes.fromhex('a1'):
-                    command = '"Set Radio Silence"'
-                case bytes.fromhex('a2'):
-                    command = '"Set Logging Rate"'
-                case bytes.fromhex('a3'):
-                    command = '"Reset"'
-                case bytes.fromhex('a4'):
-                    command = '"Camera Control"'
-                case bytes.fromhex('a5'):
-                    command = '"FFU Power Control"'
-                case bytes.fromhex('c0'):
-                    command = '"Set Time"'
-                case bytes.fromhex('e0'):
-                    command = '"Get Status"'
-                case bytes.fromhex('e1'):
-                    command = '"Get Sensor Data"'
-                case bytes.fromhex('e2'):
-                    command = '"Get Thermocouple Data"'
-                case _:
-                    pass
-            self.log('[TC] ' + command + ' command send')
+            self.log(data)
+            self.log('[TC] Command send')
             
 class UartLink(StaProcess):
     
     def setup(self):
         super().setup()
-        self.ser = serial.Serial('COM5', 38400, timeout=None)
-        
+        try:
+            self.ser = serial.Serial('COM5', 38400, timeout=None)
+        except serial.SerialException:
+            self.log('[ERROR] Port Error')
     def cleanUp(self):
         super().cleanUp()
         self.ser.close()
