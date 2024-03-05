@@ -152,7 +152,7 @@
             </IntegerParameterType>
             <FloatParameterType name="timer_type">
                 <UnitSet>
-                    <Unit>seconds</Unit>
+                    <Unit>s</Unit>
                 </UnitSet>
                 <IntegerDataEncoding encoding="unsigned" sizeInBits="32">
                     <DefaultCalibrator>
@@ -246,6 +246,7 @@
             <Parameter parameterTypeRef="uint_16" name="CRC"/>
 
             <!-- SENSOR DATASET-->
+            <Parameter parameterTypeRef="switch_rxif" name="SUP_state"/>
             <Parameter parameterTypeRef="celsius_16" name="RXIF_BME_temp"/>
             <Parameter parameterTypeRef="pressure_32" name="RXIF_BME_press"/>
             <Parameter parameterTypeRef="humidity_32" name="RXIF_BME_hum"/>
@@ -373,7 +374,7 @@
             <!-- SENSOR PACKET-->
             <SequenceContainer name="Sensor_packet" shortDescription="Telemetry data from the sensors">
                 <EntryList>
-                    <ParameterRefEntry parameterRef="RXIF_state"/>
+                    <ParameterRefEntry parameterRef="SUP_state"/>
                     <ParameterRefEntry parameterRef="RXIF_timer"/>
                     <ParameterRefEntry parameterRef="RXIF_BME_temp"/>
                     <ParameterRefEntry parameterRef="RXIF_BME_press"/>
@@ -685,8 +686,8 @@
                 <EnumerationList>
                     <Enumeration value="1" label="Valve Open" />
                     <Enumeration value="2" label="Valve Close" />
-                    <Enumeration value="3" label="GPS Send" />
-                    <Enumeration value="4" label="Drogue Deploy" />
+                    <Enumeration value="3" label="Drogue Deploy" />
+                    <Enumeration value="4" label="GPS Send" />
                     <Enumeration value="5" label="Main Chute Deploy" />
                     <Enumeration value="6" label="Landing Time" />
                 </EnumerationList>
@@ -912,7 +913,7 @@
                     <BaseContainer containerRef="header"/>
                 </CommandContainer>
             </MetaCommand>
-            <MetaCommand name="faulty_payload" shortDescription="Set radion silence command with faulty payload">
+            <MetaCommand name="data_error_packet" shortDescription="Set radion silence command with faulty payload">
                 <BaseMetaCommand metaCommandRef="header">
                     <ArgumentAssignmentList>
                         <ArgumentAssignment argumentName="sync_1" argumentValue="0x42" />
@@ -920,10 +921,27 @@
                         <ArgumentAssignment argumentName="id" argumentValue="0xa1" />
                     </ArgumentAssignmentList>
                 </BaseMetaCommand>
-                <CommandContainer name="faulty_payload">
+                <CommandContainer name="data_error_packet">
                     <EntryList>
                         <FixedValueEntry binaryValue="ff" sizeInBits="8"></FixedValueEntry>
                         <FixedValueEntry binaryValue="01" sizeInBits="8"></FixedValueEntry>
+                        <FixedValueEntry binaryValue="ff" sizeInBits="8"></FixedValueEntry>
+                    </EntryList>
+                    <BaseContainer containerRef="header"/>
+                </CommandContainer>
+            </MetaCommand>
+            <MetaCommand name="crc_error_packet" shortDescription="Set radion silence command with faulty payload">
+                <BaseMetaCommand metaCommandRef="header">
+                    <ArgumentAssignmentList>
+                        <ArgumentAssignment argumentName="sync_1" argumentValue="0x42" />
+                        <ArgumentAssignment argumentName="sync_2" argumentValue="0xac" />
+                        <ArgumentAssignment argumentName="id" argumentValue="0xa1" />
+                    </ArgumentAssignmentList>
+                </BaseMetaCommand>
+                <CommandContainer name="crc_error_packet">
+                    <EntryList>
+                        <FixedValueEntry binaryValue="ff" sizeInBits="8"></FixedValueEntry>
+                        <FixedValueEntry binaryValue="00" sizeInBits="8"></FixedValueEntry>
                         <FixedValueEntry binaryValue="ff" sizeInBits="8"></FixedValueEntry>
                     </EntryList>
                     <BaseContainer containerRef="header"/>

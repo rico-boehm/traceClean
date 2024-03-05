@@ -145,6 +145,7 @@ class UartLink(StaProcess):
             
             if reset == False: #If two sync bytes or a wrong 'id' where encountered in the previous iteration the old packet is discarded and a new one is started with the received bytes
                 data = self.ser.read()
+                #self.log(data)
                 self.log('[DEBUG] Byte: ' + str(data) + ', Packet: ' + packet + ', Counter: ' + str(packet_counter))
             else:
                 reset = False
