@@ -109,7 +109,7 @@ class UartLink(StaProcess):
     def setup(self):
         super().setup()
         try:
-            self.ser = serial.Serial('COM5', 38400, timeout=None)
+            self.ser = serial.Serial('COM3', 38400, timeout=None)
         except serial.SerialException:
             self.log('[ERROR] Port Error')
     def cleanUp(self):
