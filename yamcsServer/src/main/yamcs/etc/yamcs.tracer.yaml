@@ -45,7 +45,7 @@ mdb:
   # Valid loaders are: sheet, xtce or fully qualified name of the class
   - type: xtce
     args:
-      file: mdb/trace.xtce.xml
+      file: mdb/tracer.xtce.xml
 
 # Configuration for streams created at server startup
 streamConfig:

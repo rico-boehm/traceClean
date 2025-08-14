@@ -117,88 +117,116 @@ class UartLink(StaProcess):
         self.ser.close()
     def loop(self):
         id_dict = {
-        0 : 19,
-        1 : 49,
-        2 : 52,
+        0 : 22,
+        #1 : 49,
+        2 : 34,
         3 : 3
         }
         
-        sync_1 = False
-        sync_2 = False
-        header = False
-        reset = False
-        serial_data = b''
-        data = b''
-        packet = ''
+        # State definitions:
+        # 0: waiting for sync_1
+        # 1: waiting for sync_2
+        # 2: waiting for ID (complete header)
+        # 3: reading payload
+        # 4: reset state (process current byte as possible sync_1, then immediately go to state 0 if not found)
+        state = 0
+        current_packet = b''
+        current_byte = b''
+        packet_name = ''
         counter = 0
         length = 0
         packet_counter = 0
-        
+
         while True:
             if not self.queueDict["TC_Queue"].empty():
-                currentMsg = self.queueDict["TC_Queue"].get()
-                written = self.ser.write(currentMsg)
-                self.queueDict["TM_Queue"].put(bytes.fromhex('42acfa00b703'))
-                self.queueDict["TM_Queue"].put(bytes.fromhex('42acff0048f6'))
-                #self.log(currentMsg)
-                #self.log(written)
-            
-            if reset == False: #If two sync bytes or a wrong 'id' where encountered in the previous iteration the old packet is discarded and a new one is started with the received bytes
-                data = self.ser.read()
-                #self.log(data)
-                self.log('[DEBUG] Byte: ' + str(data) + ', Packet: ' + packet + ', Counter: ' + str(packet_counter))
-            else:
-                reset = False
-            if data == bytes.fromhex('42') and sync_1 == False: #First byte of a packet
-                serial_data += bytes.fromhex('42')
-                sync_1 = True
-                continue
-            elif data == bytes.fromhex('ac') and sync_1 == True and sync_2 == False: #Second byte of a packet
-                serial_data += bytes.fromhex('ac')
-                sync_2 = True
-                continue
-            elif sync_1 == True and sync_2 == True and header == False: #Third byte of a packet; If byte is a known id, header is complete, otherwise packet is reset with the received byte as first       
-                if data == bytes.fromhex('f0'):
-                    length = id_dict[0]
-                    packet = 'Status'
-                elif data == bytes.fromhex('f1'):
-                    length = id_dict[1]
-                    packet = 'Sensors'
-                elif data == bytes.fromhex('f2') or data == bytes.fromhex('f3') or data == bytes.fromhex('f4') or data == bytes.fromhex('f5'):
-                    length = id_dict[2]
-                    packet = 'Hull Sensors'
-                elif data == bytes.fromhex('fa') or data == bytes.fromhex('ff'):
-                    length = id_dict[3]
-                    packet = 'Error'
-                else:
-                    serial_data = data
-                    sync_1 = False
-                    sync_2 = False
-                    reset = True
+                currentCmd = self.queueDict["TC_Queue"].get()
+                written = self.ser.write(currentCmd)
+                #self.queueDict["TM_Queue"].put(bytes.fromhex('42acfa00b703'))
+                #self.queueDict["TM_Queue"].put(bytes.fromhex('42acff0048f6'))
+                #self.log(currentCmd)
+                self.log('[TC] Command sent')
+
+            if state != 4:
+                current_byte = self.ser.read()
+            # else: data is already set from previous iteration
+
+            self.log('[DEBUG] Byte: ' + str(current_byte) + ', Packet: ' + packet_name + ', Counter: ' + str(packet_counter))
+
+            match state:
+                case 0:  # Waiting for sync_1
+                    if current_byte == bytes.fromhex('42'):
+                        current_packet = current_byte
+                        state = 1
+                    else:
+                        self.log('[DEBUG] Wrong sync_1 in packet ' + str(packet_counter))
+                    # else: stay in state 0
+                    continue
+
+                case 1:  # Waiting for sync_2
+                    if current_byte == bytes.fromhex('ac'):
+                        current_packet += current_byte
+                        state = 2
+                    else:
+                        # Not a valid sync_2, restart sync search
+                        state = 0
+                        self.log('[DEBUG] Wrong sync_2 in packet ' + str(packet_counter))
+                    continue
+
+                case 2:  # Waiting for ID (complete header)
+                    match current_byte:
+                        case bytes.fromhex('f0'):
+                            length = id_dict[0]
+                            packet_name = 'Status'
+                        #case bytes.fromhex('f1'):
+                            #length = id_dict[1]
+                            #packet = 'Sensors'
+                        case bytes.fromhex('f2') | bytes.fromhex('f3') | bytes.fromhex('f4'):
+                            length = id_dict[2]
+                            packet_name = 'Hull Sensors'
+                        case bytes.fromhex('fa') | bytes.fromhex('ff'):
+                            length = id_dict[3]
+                            packet_name = 'Error'
+                        case _:
+                            # Not a valid ID, go to reset state and process this byte as possible sync_1
+                            current_packet = b''
+                            state = 4
+                            counter = 0
+                            self.log('[DEBUG] Wrong ID in packet ' + str(packet_counter))
+                            continue
+                    current_packet += current_byte
                     counter = 0
-                    self.log('[DEBUG] Wrong ID')
-                    continue                       
-                serial_data += data
-                header = True
-                counter = 0
-                continue                        
-            elif counter < length: #After the header is complete the payload is built
-                serial_data += data	
-                counter += 1
-                if counter == length: #If the last byte is received without error the loop is exited
+                    state = 3
+                    continue
+
+                case 3:  # Reading payload
+                    # Read the rest of the payload in a tight loop
+                    while counter < length:
+                        if counter == 0:
+                            # First byte already read as 'current_byte'
+                            current_packet += current_byte
+                        else:
+                            current_packet += self.ser.read() # Read next byte
+                        counter += 1
                     packet_counter += 1
-                    self.queueDict["TM_Queue"].put(serial_data)
-                    self.log('[TM] ' + packet + ' Packet received ('+ str(packet_counter) +')')
-                    sync_1 = False
-                    sync_2 = False
-                    header = False
-                    reset = False
-                    serial_data = b''
-                    data = b''
-                    packet = ''
+                    self.queueDict["TM_Queue"].put(current_packet)
+                    self.log('[TM] ' + packet_name + ' Packet received ('+ str(packet_counter) +')')
+                    # Reset for next packet
+                    state = 0
+                    current_packet = b''
+                    current_byte = b''
+                    packet_name = ''
                     counter = 0
                     length = 0
-                continue
+                    continue
+
+                case 4:  # Reset state: process current byte as possible sync_1, then immediately go to state 0 if not found
+                    if current_byte == bytes.fromhex('42'):
+                        current_packet = current_byte
+                        state = 1
+                    else:
+                        # Not a sync_1, go back to waiting for sync_1 and read next byte
+                        state = 0
+                    continue
 
 if __name__ == "__main__":
     manager = ProcessManager(5, 1)

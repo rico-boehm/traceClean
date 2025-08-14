@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<SpaceSystem name="trace" xmlns="http://www.omg.org/spec/XTCE/20180204" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.omg.org/spec/XTCE/20180204 https://www.omg.org/spec/XTCE/20180204/SpaceSystem.xsd">
+<SpaceSystem name="tracer" xmlns="http://www.omg.org/spec/XTCE/20180204" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.omg.org/spec/XTCE/20180204 https://www.omg.org/spec/XTCE/20180204/SpaceSystem.xsd">
     <TelemetryMetaData>
     <!-- THIS CONTAINS ALL THE DATA FOR TELEMETRY (DOWNLINK)-->    
         <ParameterTypeSet>
@@ -145,12 +145,26 @@
                     <Enumeration value="0" label="BATTERY" />
                 </EnumerationList>
             </EnumeratedParameterType>
+
+            <IntegerParameterType name="flow_24">
+                <UnitSet>
+                    <Unit>g/s</Unit>
+                </UnitSet>
+                <IntegerDataEncoding sizeInBits="24"/>
+            </IntegerParameterType>
             
             <IntegerParameterType name="current_16">
                 <UnitSet>
                     <Unit>mA</Unit>
                 </UnitSet>
                 <IntegerDataEncoding sizeInBits="16"/>
+            </IntegerParameterType>
+
+            <IntegerParameterType name="current_8">
+                <UnitSet>
+                    <Unit>mA</Unit>
+                </UnitSet>
+                <IntegerDataEncoding sizeInBits="8"/>
             </IntegerParameterType>
             
             <IntegerParameterType name="voltage_16">
@@ -277,39 +291,14 @@
             <Parameter parameterTypeRef="timer_type" name="RXIF_timer"/>
             <Parameter parameterTypeRef="uint_16" name="CRC"/>
 
-            <!-- SENSOR DATASET-->
-            <Parameter parameterTypeRef="switch_rxif" name="SUP_state"/>
-            <Parameter parameterTypeRef="celsius_16" name="RXIF_BME_temp"/>
-            <Parameter parameterTypeRef="pressure_32" name="RXIF_BME_press"/>
-            <Parameter parameterTypeRef="humidity_32" name="RXIF_BME_hum"/>
-			<Parameter parameterTypeRef="degree_16" name="RXIF_heading"/>
-			<Parameter parameterTypeRef="degree_16" name="RXIF_roll"/>
-			<Parameter parameterTypeRef="degree_16" name="RXIF_pitch"/>
-			<Parameter parameterTypeRef="celsius_16" name="SUP_BME_temp"/>
-            <Parameter parameterTypeRef="pressure_32" name="SUP_BME_press"/>
-            <Parameter parameterTypeRef="humidity_32" name="SUP_BME_hum"/>
-			<Parameter parameterTypeRef="degree_16" name="SUP_heading"/>
-			<Parameter parameterTypeRef="degree_16" name="SUP_roll"/>
-			<Parameter parameterTypeRef="degree_16" name="SUP_pitch"/>
-            <Parameter parameterTypeRef="accel_16" name="Accel_x"/>
-            <Parameter parameterTypeRef="accel_16" name="Accel_y"/>
-            <Parameter parameterTypeRef="accel_16" name="Accel_z"/>
-			<Parameter parameterTypeRef="roll_8" name="Roll_rate"/>
-			<Parameter parameterTypeRef="accel_16" name="Linear_accel"/>
-
             <!-- STATUS DATASET-->
-            <Parameter parameterTypeRef="switch_4_open" name="FFU_conn"/>
-            <Parameter parameterTypeRef="switch_4_yes" name="FFU_external_power"/>
-            <Parameter parameterTypeRef="switch_4_on" name="RXIF_cam_status"/>
-            <Parameter parameterTypeRef="switch_4_on" name="FFU_cam_status"/>
-            <Parameter parameterTypeRef="current_16" name="FFU_external_curr"/>
-            <Parameter parameterTypeRef="current_16" name="Batt_current"/>
-            <Parameter parameterTypeRef="switch_8" name="Batt_charge_status"/>
-            <Parameter parameterTypeRef="celsius_8" name="Batt_temp"/>
-            <Parameter parameterTypeRef="power_mux_type" name="Power_MUX_status"/>
-            <Parameter parameterTypeRef="switch_8" name="LO_status"/>
-            <Parameter parameterTypeRef="switch_8" name="SOE_status"/>
-            <Parameter parameterTypeRef="switch_8" name="SODS_status"/>
+            <Parameter parameterTypeRef="current_8" name="CURR_3_3"/>
+            <Parameter parameterTypeRef="current_8" name="CURR_5"/>
+            <Parameter parameterTypeRef="current_8" name="CURR_12"/>
+            <Parameter parameterTypeRef="flow_24" name="FLOW_gas"/>
+            <Parameter parameterTypeRef="flow_24" name="FLOW_liq"/>
+            <Parameter parameterTypeRef="pressure_24" name="PRESS_tank"/>
+            <Parameter parameterTypeRef="pressure_24" name="PRESS_surf"/>
 
             <!-- HULL SENSOR DATASET-->
             <Parameter parameterTypeRef="temp_type" name="Temp_sensor_1"/>
@@ -339,37 +328,6 @@
             <Parameter parameterTypeRef="temp_type" name="Temp_sensor_25"/>
             <Parameter parameterTypeRef="temp_type" name="Temp_sensor_26"/>
             <Parameter parameterTypeRef="temp_type" name="Temp_sensor_27"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_sensor_28"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_sensor_29"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_sensor_30"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_sensor_31"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_sensor_32"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_sensor_33"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_sensor_34"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_sensor_35"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_sensor_36"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_sensor_37"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_sensor_38"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_sensor_39"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_sensor_40"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_sensor_41"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_sensor_42"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_sensor_43"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_sensor_44"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_sensor_45"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_sensor_46"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_sensor_47"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_sensor_48"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_ref_1_1"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_ref_1_2"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_ref_2_1"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_ref_2_2"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_ref_3_1"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_ref_3_2"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_ref_4_1"/>
-            <Parameter parameterTypeRef="temp_type" name="Temp_ref_4_2"/>
-            <Parameter parameterTypeRef="pressure_24" name="Variable_1"/>
-            <Parameter parameterTypeRef="fill" name="Fill"/>
 
             <!-- ERROR DATASET-->
             <Parameter parameterTypeRef="uint_8" name="Data_error"/>
@@ -402,61 +360,19 @@
 					</RestrictionCriteria>
 				</BaseContainer>
             </SequenceContainer>
-            
-            <!-- SENSOR PACKET-->
-            <SequenceContainer name="Sensor_packet" shortDescription="Telemetry data from the sensors">
-                <EntryList>
-                    <ParameterRefEntry parameterRef="SUP_state"/>
-                    <ParameterRefEntry parameterRef="RXIF_timer"/>
-                    <ParameterRefEntry parameterRef="RXIF_BME_temp"/>
-                    <ParameterRefEntry parameterRef="RXIF_BME_press"/>
-                    <ParameterRefEntry parameterRef="RXIF_BME_hum"/>
-					<ParameterRefEntry parameterRef="RXIF_heading"/>
-					<ParameterRefEntry parameterRef="RXIF_roll"/>
-					<ParameterRefEntry parameterRef="RXIF_pitch"/>
-                    <ParameterRefEntry parameterRef="SUP_BME_temp"/>
-                    <ParameterRefEntry parameterRef="SUP_BME_press"/>
-                    <ParameterRefEntry parameterRef="SUP_BME_hum"/>
-					<ParameterRefEntry parameterRef="SUP_heading"/>
-					<ParameterRefEntry parameterRef="SUP_roll"/>
-					<ParameterRefEntry parameterRef="SUP_pitch"/>
-                    <ParameterRefEntry parameterRef="Accel_x"/>
-                    <ParameterRefEntry parameterRef="Accel_y"/>
-                    <ParameterRefEntry parameterRef="Accel_z"/>
-					<ParameterRefEntry parameterRef="Roll_rate"/>
-					<ParameterRefEntry parameterRef="Linear_accel"/>
-                    <ParameterRefEntry parameterRef="CRC"/>
-                </EntryList>
-                
-                <BaseContainer containerRef="Packet_header">
-					<RestrictionCriteria>
-						<ComparisonList>
-                            <Comparison value="0x42" parameterRef="Sync_1" />
-                            <Comparison value="0xac" parameterRef="Sync_2" />
-							<Comparison value="0xf1" parameterRef="id"/>
-						</ComparisonList>
-					</RestrictionCriteria>
-				</BaseContainer>
-            </SequenceContainer>
-            <!-- END OF SENSOR PACKET-->
 
             <!-- STATUS PACKET-->
             <SequenceContainer name="Status_packet" shortDescription="Telemetry data for the status of the system">
                 <EntryList>
                     <ParameterRefEntry parameterRef="RXIF_state"/>
                     <ParameterRefEntry parameterRef="RXIF_timer"/>
-                    <ParameterRefEntry parameterRef="FFU_conn"/>
-                    <ParameterRefEntry parameterRef="FFU_external_power"/>
-                    <ParameterRefEntry parameterRef="RXIF_cam_status"/>
-                    <ParameterRefEntry parameterRef="FFU_cam_status"/>
-                    <ParameterRefEntry parameterRef="FFU_external_curr"/>
-                    <ParameterRefEntry parameterRef="Batt_current"/>
-                    <ParameterRefEntry parameterRef="Batt_charge_status"/>
-                    <ParameterRefEntry parameterRef="Batt_temp"/>
-                    <ParameterRefEntry parameterRef="Power_MUX_status"/>
-                    <ParameterRefEntry parameterRef="LO_status"/>
-                    <ParameterRefEntry parameterRef="SOE_status"/>
-                    <ParameterRefEntry parameterRef="SODS_status"/>
+                    <ParameterRefEntry parameterRef="CURR_3_3"/>
+                    <ParameterRefEntry parameterRef="CURR_5"/>
+                    <ParameterRefEntry parameterRef="CURR_12"/>
+                    <ParameterRefEntry parameterRef="FLOW_gas"/>
+                    <ParameterRefEntry parameterRef="FLOW_liq"/>
+                    <ParameterRefEntry parameterRef="PRESS_tank"/>
+                    <ParameterRefEntry parameterRef="PRESS_surf"/>
                     <ParameterRefEntry parameterRef="CRC"/>
                 </EntryList>
                 
@@ -486,12 +402,6 @@
                     <ParameterRefEntry parameterRef="Temp_sensor_7"/>
                     <ParameterRefEntry parameterRef="Temp_sensor_8"/>
                     <ParameterRefEntry parameterRef="Temp_sensor_9"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_10"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_11"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_12"/>
-                    <ParameterRefEntry parameterRef="Temp_ref_1_1"/>      
-                    <ParameterRefEntry parameterRef="Temp_ref_1_2"/>
-                    <ParameterRefEntry parameterRef="Fill"/>
                     <ParameterRefEntry parameterRef="CRC"/>
                 </EntryList>
                 
@@ -512,21 +422,15 @@
                 <EntryList>
                     <ParameterRefEntry parameterRef="RXIF_state"/>
                     <ParameterRefEntry parameterRef="RXIF_timer"/>
+                    <ParameterRefEntry parameterRef="Temp_sensor_10"/>
+                    <ParameterRefEntry parameterRef="Temp_sensor_11"/>
+                    <ParameterRefEntry parameterRef="Temp_sensor_12"/>
                     <ParameterRefEntry parameterRef="Temp_sensor_13"/>
                     <ParameterRefEntry parameterRef="Temp_sensor_14"/>
                     <ParameterRefEntry parameterRef="Temp_sensor_15"/>
                     <ParameterRefEntry parameterRef="Temp_sensor_16"/>
                     <ParameterRefEntry parameterRef="Temp_sensor_17"/>
                     <ParameterRefEntry parameterRef="Temp_sensor_18"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_19"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_20"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_21"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_22"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_23"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_24"/>
-                    <ParameterRefEntry parameterRef="Temp_ref_2_1"/>      
-                    <ParameterRefEntry parameterRef="Temp_ref_2_2"/>
-                    <ParameterRefEntry parameterRef="Fill"/>
                     <ParameterRefEntry parameterRef="CRC"/>
                 </EntryList>
                 
@@ -547,21 +451,15 @@
                 <EntryList>
                     <ParameterRefEntry parameterRef="RXIF_state"/>
                     <ParameterRefEntry parameterRef="RXIF_timer"/>
+                    <ParameterRefEntry parameterRef="Temp_sensor_19"/>
+                    <ParameterRefEntry parameterRef="Temp_sensor_20"/>
+                    <ParameterRefEntry parameterRef="Temp_sensor_21"/>
+                    <ParameterRefEntry parameterRef="Temp_sensor_22"/>
+                    <ParameterRefEntry parameterRef="Temp_sensor_23"/>
+                    <ParameterRefEntry parameterRef="Temp_sensor_24"/>
                     <ParameterRefEntry parameterRef="Temp_sensor_25"/>
                     <ParameterRefEntry parameterRef="Temp_sensor_26"/>
                     <ParameterRefEntry parameterRef="Temp_sensor_27"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_28"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_29"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_30"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_31"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_32"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_33"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_34"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_35"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_36"/>
-                    <ParameterRefEntry parameterRef="Temp_ref_3_1"/>      
-                    <ParameterRefEntry parameterRef="Temp_ref_3_2"/>
-                    <ParameterRefEntry parameterRef="Fill"/>
                     <ParameterRefEntry parameterRef="CRC"/>
                 </EntryList>
                 
@@ -576,41 +474,6 @@
 				</BaseContainer>
             </SequenceContainer>
             <!-- END OF HULL SENSOR PACKET 3-->
-
-            <!-- HULL SENSOR PACKET 4-->
-            <SequenceContainer name="Hull_sensor_packet_4" shortDescription="Telemetry data from the fourth set of hull sensors">
-                <EntryList>
-                    <ParameterRefEntry parameterRef="RXIF_state"/>
-                    <ParameterRefEntry parameterRef="RXIF_timer"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_37"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_38"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_39"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_40"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_41"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_42"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_43"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_44"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_45"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_46"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_47"/>
-                    <ParameterRefEntry parameterRef="Temp_sensor_48"/>
-                    <ParameterRefEntry parameterRef="Temp_ref_4_1"/>
-                    <ParameterRefEntry parameterRef="Temp_ref_4_2"/>
-                    <ParameterRefEntry parameterRef="Variable_1"/>
-                    <ParameterRefEntry parameterRef="CRC"/>
-                </EntryList>
-                
-                <BaseContainer containerRef="Packet_header">
-					<RestrictionCriteria>
-						<ComparisonList>
-							<Comparison value="0x42" parameterRef="Sync_1" />
-                            <Comparison value="0xac" parameterRef="Sync_2" />
-							<Comparison value="0xf5" parameterRef="id"/>
-						</ComparisonList>
-					</RestrictionCriteria>
-				</BaseContainer>
-            </SequenceContainer>
-            <!-- END OF HULL SENSOR PACKET 4-->
 
             <!-- ERROR CRC PACKET-->
             <SequenceContainer name="Error_crc_packet" shortDescription="Error faulty CRC code">
@@ -673,10 +536,8 @@
                 <IntegerDataEncoding sizeInBits="8"/>
                 <EnumerationList>
                     <Enumeration value="1" label="Testing" />
-                    <Enumeration value="2" label="Ready" />
-                    <Enumeration value="3" label="Launched" />
-                    <Enumeration value="4" label="Experiment" />
-                    <Enumeration value="5" label="Landed" />
+                    <Enumeration value="2" label="Experiment Ready/Operating" />
+                    <Enumeration value="3" label="Experiment Active" />
                 </EnumerationList>
             </EnumeratedArgumentType>
             
@@ -693,9 +554,8 @@
                 <UnitSet/>
                 <IntegerDataEncoding sizeInBits="8"/> 
                 <EnumerationList>
-                    <Enumeration value="170" label="RXIF" />
-                    <Enumeration value="204" label="SUP" />
-                    <Enumeration value="238" label="SENS" />
+                    <Enumeration value="170" label="Lower" />
+                    <Enumeration value="187" label="Upper" />
                 </EnumerationList>
             </EnumeratedArgumentType>
             
@@ -715,7 +575,7 @@
                 <IntegerDataEncoding sizeInBits="8"/> 
                 <EnumerationList>
                     <Enumeration value="1" label="Timer" />
-                    <Enumeration value="2" label="Flash" />
+                    <Enumeration value="2" label="SD" />
                 </EnumerationList>
             </EnumeratedArgumentType>
             
@@ -732,12 +592,10 @@
                 <UnitSet/>
                 <IntegerDataEncoding sizeInBits="8"/> 
                 <EnumerationList>
-                    <Enumeration value="1" label="Valve Open" />
-                    <Enumeration value="2" label="Valve Close" />
-                    <Enumeration value="3" label="Drogue Deploy" />
-                    <Enumeration value="4" label="GPS Send" />
-                    <Enumeration value="5" label="Main Chute Deploy" />
-                    <Enumeration value="6" label="Landing Time" />
+                    <Enumeration value="1" label="Experiment Start" />
+                    <Enumeration value="2" label="Experiment Pause" />
+                    <Enumeration value="3" label="Experiment Resume" />
+                    <Enumeration value="4" label="Experiment End" />
                 </EnumerationList>
             </EnumeratedArgumentType>
             
@@ -779,7 +637,7 @@
                 </BaseMetaCommand>
                 <ArgumentList>
                     <Argument argumentTypeRef="state_enum_type" name="state"></Argument>
-                    <Argument argumentTypeRef="board_selector_type" name="board"></Argument>
+                    <Argument argumentTypeRef="board_selector_type" name="board" shortDescription="Select board"></Argument>
                 </ArgumentList>
                 <CommandContainer name="set_state">
                     <EntryList>
@@ -841,7 +699,7 @@
                 </BaseMetaCommand>
                 <ArgumentList>
                     <Argument argumentTypeRef="reset_selector_type" name="reset"></Argument>
-                    <Argument argumentTypeRef="board_selector_type" name="board"></Argument>
+                    <Argument argumentTypeRef="board_selector_type" name="board" shortDescription="Select board"></Argument>
                 </ArgumentList>
                 <CommandContainer name="reset">
                     <EntryList>
@@ -942,28 +800,10 @@
                     <ArgumentAssignmentList>
                         <ArgumentAssignment argumentName="sync_1" argumentValue="0x42" />
                         <ArgumentAssignment argumentName="sync_2" argumentValue="0xac" />
-                        <ArgumentAssignment argumentName="id" argumentValue="0xe1" />
-                    </ArgumentAssignmentList>
-                </BaseMetaCommand>
-                <CommandContainer name="get_sensor_data">
-                    <EntryList>
-                        <FixedValueEntry binaryValue="00" sizeInBits="8"></FixedValueEntry>
-                        <FixedValueEntry binaryValue="00" sizeInBits="8"></FixedValueEntry>
-                        <FixedValueEntry binaryValue="00" sizeInBits="8"></FixedValueEntry>
-                    </EntryList>
-                    <BaseContainer containerRef="header"/>
-                </CommandContainer>
-            </MetaCommand>
-            
-            <MetaCommand name="get_thermocouple_data" shortDescription="Requests sensor packet">
-                <BaseMetaCommand metaCommandRef="header">
-                    <ArgumentAssignmentList>
-                        <ArgumentAssignment argumentName="sync_1" argumentValue="0x42" />
-                        <ArgumentAssignment argumentName="sync_2" argumentValue="0xac" />
                         <ArgumentAssignment argumentName="id" argumentValue="0xe2" />
                     </ArgumentAssignmentList>
                 </BaseMetaCommand>
-                <CommandContainer name="get_thermocouple_data">
+                <CommandContainer name="get_sensor_data">
                     <EntryList>
                         <FixedValueEntry binaryValue="00" sizeInBits="8"></FixedValueEntry>
                         <FixedValueEntry binaryValue="00" sizeInBits="8"></FixedValueEntry>

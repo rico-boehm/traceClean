@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example</groupId>
-  <artifactId>trace_groundstation</artifactId>
+  <artifactId>tracer_groundstation</artifactId>
   <version>1.4</version>
   <packaging>jar</packaging>
 
-  <name>TRACE Groundstation Software</name>
+  <name>TRACER Groundstation Software</name>
   <url>https://www.spaceteamaachen.de/projects/trace</url>
 
   <properties>
