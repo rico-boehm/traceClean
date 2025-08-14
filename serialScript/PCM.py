@@ -101,8 +101,7 @@ class TCLink(SocketProcess):
             #for item in data:
             #    data_str += str(item)
             self.queueDict["TC_Queue"].put(data)
-            self.log(data)
-            self.log('[TC] Command send')
+            self.log('[TC] Command queued')
             
 class UartLink(StaProcess):
     
