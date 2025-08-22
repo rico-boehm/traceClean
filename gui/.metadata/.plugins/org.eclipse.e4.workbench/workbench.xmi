@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="ASCII"?>
-<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_RZWGgJfrEe6C5ZFf2fSImA" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_RZWHnpfrEe6C5ZFf2fSImA" bindingContexts="_RZWJa5frEe6C5ZFf2fSImA">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.csstudio.opibuilder.OPIEditor&quot; name=&quot;data.opi&quot; tooltip=&quot;trace/data.opi&quot;>&#xD;&#xA;&lt;persistable path=&quot;/trace/data.opi&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_RZWGgJfrEe6C5ZFf2fSImA" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_ArQjcH7REfCfF6ulTDBT_g" bindingContexts="_RZWJa5frEe6C5ZFf2fSImA">
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.csstudio.opibuilder.OPIEditor&quot; name=&quot;data.opi&quot; tooltip=&quot;tracer/data.opi&quot;>&#xD;&#xA;&lt;persistable path=&quot;/tracer/data.opi&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.csstudio.opibuilder.OPIEditor&quot; name=&quot;data.opi&quot; tooltip=&quot;C:\Users\ricob\Desktop\Code\traceClean\gui\tracer\data.opi&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/C:/Users/ricob/Desktop/Code/traceClean/gui/tracer/data.opi&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_RZWGgZfrEe6C5ZFf2fSImA" selectedElement="_RZWGgpfrEe6C5ZFf2fSImA" x="-11" y="-11" width="1942" height="1102">
-    <persistedState key="coolBarVisible" value="false"/>
-    <persistedState key="perspectiveBarVisible" value="false"/>
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_ArQjcH7REfCfF6ulTDBT_g" selectedElement="_ArqMEH7REfCfF6ulTDBT_g" x="-8" y="1072" width="1296" height="688">
+    <persistedState key="coolBarVisible" value="true"/>
+    <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
-    <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workingSets/>"/>
-    <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1701941864774"/>
     <persistedState key="show_in_time" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;show_in_time/>"/>
+    <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workingSets/>"/>
+    <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1755809661549"/>
     <tags>topLevel</tags>
     <tags>shellMaximized</tags>
-    <children xsi:type="basic:PartSashContainer" xmi:id="_RZWGgpfrEe6C5ZFf2fSImA" selectedElement="_RZWGg5frEe6C5ZFf2fSImA" horizontal="true">
-      <children xsi:type="advanced:PerspectiveStack" xmi:id="_RZWGg5frEe6C5ZFf2fSImA" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_RZWGhJfrEe6C5ZFf2fSImA">
-        <children xsi:type="advanced:Perspective" xmi:id="_RZWGhJfrEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.OPIRuntime.perspective" selectedElement="_RZWGhZfrEe6C5ZFf2fSImA" label="Display Runner" iconURI="platform:/plugin/org.csstudio.opibuilder/icons/OPIBuilder.png">
+    <children xsi:type="basic:PartSashContainer" xmi:id="_ArqMEH7REfCfF6ulTDBT_g" selectedElement="_ArqMEX7REfCfF6ulTDBT_g" horizontal="true">
+      <children xsi:type="advanced:PerspectiveStack" xmi:id="_ArqMEX7REfCfF6ulTDBT_g" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_As_o0H7REfCfF6ulTDBT_g">
+        <children xsi:type="advanced:Perspective" xmi:id="_As_o0H7REfCfF6ulTDBT_g" elementId="org.csstudio.opibuilder.OPIRuntime.perspective" selectedElement="_As_o0X7REfCfF6ulTDBT_g" label="Display Runner" iconURI="platform:/plugin/org.csstudio.opibuilder/icons/OPIBuilder.png">
           <persistedState key="persp.hiddenItems" value="persp.hideToolbarSC:print,persp.hideToolbarSC:org.eclipse.ui.edit.undo,persp.hideToolbarSC:org.eclipse.ui.edit.redo,persp.hideToolbarSC:org.eclipse.ui.edit.text.toggleShowSelectedElementOnly,"/>
           <tags>persp.actionSet:org.csstudio.opibuilder.actionSet</tags>
           <tags>persp.actionSet:org.eclipse.search.searchActionSet</tags>
@@ -27,601 +27,261 @@
           <tags>persp.viewSC:org.yamcs.studio.links.LinksView</tags>
           <tags>persp.viewSC:org.yamcs.studio.commanding.stack.CommandStackView</tags>
           <tags>persp.viewSC:org.yamcs.studio.commanding.cmdhist.CommandHistoryView</tags>
-          <tags>persp.actionSet:org.eclipse.ui.cheatsheets.actionSet</tags>
-          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.annotationNavigation</tags>
-          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.navigation</tags>
-          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_RZWGhZfrEe6C5ZFf2fSImA" selectedElement="_RZWGiZfrEe6C5ZFf2fSImA" horizontal="true">
-            <children xsi:type="basic:PartStack" xmi:id="_RZWGhpfrEe6C5ZFf2fSImA" elementId="LEFT" visible="false" containerData="2000" selectedElement="_RZWGiJfrEe6C5ZFf2fSImA">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_As_o0X7REfCfF6ulTDBT_g" selectedElement="_As_o1X7REfCfF6ulTDBT_g" horizontal="true">
+            <children xsi:type="basic:PartStack" xmi:id="_As_o0n7REfCfF6ulTDBT_g" elementId="LEFT" visible="false" containerData="2000" selectedElement="_As_o1H7REfCfF6ulTDBT_g">
               <tags>Minimized</tags>
-              <children xsi:type="advanced:Placeholder" xmi:id="_RZWGh5frEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.opiViewLEFT:*" toBeRendered="false" ref="_RZWHHZfrEe6C5ZFf2fSImA" closeable="true">
+              <children xsi:type="advanced:Placeholder" xmi:id="_As_o037REfCfF6ulTDBT_g" elementId="org.csstudio.opibuilder.opiViewLEFT:*" toBeRendered="false" ref="_As0psH7REfCfF6ulTDBT_g" closeable="true">
                 <tags>View</tags>
                 <tags>categoryTag:OPI</tags>
               </children>
-              <children xsi:type="advanced:Placeholder" xmi:id="_RZWGiJfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.explorer.view" ref="_RZWHL5frEe6C5ZFf2fSImA" closeable="true">
+              <children xsi:type="advanced:Placeholder" xmi:id="_As_o1H7REfCfF6ulTDBT_g" elementId="org.yamcs.studio.explorer.view" ref="_As2e4H7REfCfF6ulTDBT_g" closeable="true">
                 <tags>View</tags>
                 <tags>categoryTag:Yamcs Server</tags>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_RZWGiZfrEe6C5ZFf2fSImA" containerData="8000" selectedElement="_RZWGipfrEe6C5ZFf2fSImA" horizontal="true">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_RZWGipfrEe6C5ZFf2fSImA" containerData="7500" selectedElement="_RZWGjZfrEe6C5ZFf2fSImA">
-                <children xsi:type="basic:PartStack" xmi:id="_RZWGi5frEe6C5ZFf2fSImA" elementId="TOP" toBeRendered="false" containerData="2500">
-                  <children xsi:type="advanced:Placeholder" xmi:id="_RZWGjJfrEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.opiViewTOP:*" toBeRendered="false" ref="_RZWHH5frEe6C5ZFf2fSImA" closeable="true">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_As_o1X7REfCfF6ulTDBT_g" containerData="8000" selectedElement="_As_o1n7REfCfF6ulTDBT_g" horizontal="true">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_As_o1n7REfCfF6ulTDBT_g" containerData="7500" selectedElement="_As_o2X7REfCfF6ulTDBT_g">
+                <children xsi:type="basic:PartStack" xmi:id="_As_o137REfCfF6ulTDBT_g" elementId="TOP" toBeRendered="false" containerData="2500">
+                  <children xsi:type="advanced:Placeholder" xmi:id="_As_o2H7REfCfF6ulTDBT_g" elementId="org.csstudio.opibuilder.opiViewTOP:*" toBeRendered="false" ref="_As0psn7REfCfF6ulTDBT_g" closeable="true">
                     <tags>View</tags>
                     <tags>categoryTag:OPI</tags>
                   </children>
                 </children>
-                <children xsi:type="basic:PartSashContainer" xmi:id="_RZWGjZfrEe6C5ZFf2fSImA" containerData="7500" selectedElement="_RZWGjpfrEe6C5ZFf2fSImA">
-                  <children xsi:type="basic:PartSashContainer" xmi:id="_RZWGjpfrEe6C5ZFf2fSImA" containerData="7500" selectedElement="_RZWGkJfrEe6C5ZFf2fSImA" horizontal="true">
-                    <children xsi:type="advanced:Placeholder" xmi:id="_RZWGj5frEe6C5ZFf2fSImA" elementId="org.eclipse.ui.editorss" toBeRendered="false" containerData="5000" ref="_RZWHG5frEe6C5ZFf2fSImA"/>
-                    <children xsi:type="basic:PartStack" xmi:id="_RZWGkJfrEe6C5ZFf2fSImA" elementId="DEFAULT_VIEW" containerData="5000" selectedElement="_RZWGkpfrEe6C5ZFf2fSImA">
+                <children xsi:type="basic:PartSashContainer" xmi:id="_As_o2X7REfCfF6ulTDBT_g" containerData="7500" selectedElement="_As_o2n7REfCfF6ulTDBT_g">
+                  <children xsi:type="basic:PartSashContainer" xmi:id="_As_o2n7REfCfF6ulTDBT_g" containerData="7500" selectedElement="_As_o3H7REfCfF6ulTDBT_g" horizontal="true">
+                    <children xsi:type="advanced:Placeholder" xmi:id="_As_o237REfCfF6ulTDBT_g" elementId="org.eclipse.ui.editorss" toBeRendered="false" containerData="5000" ref="_AsyNcH7REfCfF6ulTDBT_g"/>
+                    <children xsi:type="basic:PartStack" xmi:id="_As_o3H7REfCfF6ulTDBT_g" elementId="DEFAULT_VIEW" containerData="5000" selectedElement="_AwiFAX7REfCfF6ulTDBT_g">
                       <tags>active</tags>
-                      <tags>noFocus</tags>
-                      <children xsi:type="advanced:Placeholder" xmi:id="_RZWGkZfrEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.opiView:*" toBeRendered="false" ref="_RZWHIZfrEe6C5ZFf2fSImA" closeable="true">
+                      <children xsi:type="advanced:Placeholder" xmi:id="_As_o3X7REfCfF6ulTDBT_g" elementId="org.csstudio.opibuilder.opiView:*" toBeRendered="false" ref="_As130X7REfCfF6ulTDBT_g" closeable="true">
                         <tags>View</tags>
                         <tags>categoryTag:OPI</tags>
                       </children>
-                      <children xsi:type="advanced:Placeholder" xmi:id="_RZWGkpfrEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.opiView:80e39e9a-9776-4caf-9d84-c2a86c05fafe" ref="_RZWHUJfrEe6C5ZFf2fSImA" closeable="true">
+                      <children xsi:type="advanced:Placeholder" xmi:id="_AwiFAX7REfCfF6ulTDBT_g" elementId="org.csstudio.opibuilder.opiView:b01bf830-a3a7-4c97-8556-168404775ad9" ref="_AwiFAH7REfCfF6ulTDBT_g" closeable="true">
                         <tags>View</tags>
                         <tags>categoryTag:OPI</tags>
                       </children>
                     </children>
                   </children>
-                  <children xsi:type="basic:PartStack" xmi:id="_RZWGk5frEe6C5ZFf2fSImA" elementId="BOTTOM" visible="false" containerData="2500" selectedElement="_RZWGmJfrEe6C5ZFf2fSImA">
+                  <children xsi:type="basic:PartStack" xmi:id="_As_o3n7REfCfF6ulTDBT_g" elementId="BOTTOM" visible="false" containerData="2500" selectedElement="_As_o4H7REfCfF6ulTDBT_g">
                     <tags>Minimized</tags>
-                    <children xsi:type="advanced:Placeholder" xmi:id="_RZWGlJfrEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.opiViewBOTTOM:*" toBeRendered="false" ref="_RZWHIJfrEe6C5ZFf2fSImA" closeable="true">
+                    <children xsi:type="advanced:Placeholder" xmi:id="_As_o337REfCfF6ulTDBT_g" elementId="org.csstudio.opibuilder.opiViewBOTTOM:*" toBeRendered="false" ref="_As130H7REfCfF6ulTDBT_g" closeable="true">
                       <tags>View</tags>
                       <tags>categoryTag:OPI</tags>
                     </children>
-                    <children xsi:type="advanced:Placeholder" xmi:id="_RZWGlZfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.console.ConsoleView" ref="_RZWHIpfrEe6C5ZFf2fSImA" closeable="true">
+                    <children xsi:type="advanced:Placeholder" xmi:id="_As_o4H7REfCfF6ulTDBT_g" elementId="org.eclipse.ui.console.ConsoleView" ref="_As130n7REfCfF6ulTDBT_g" closeable="true">
                       <tags>View</tags>
                       <tags>categoryTag:General</tags>
                     </children>
-                    <children xsi:type="advanced:Placeholder" xmi:id="_RZWGlpfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.archive.ArchiveView" toBeRendered="false" ref="_RZWHMpfrEe6C5ZFf2fSImA" closeable="true">
+                    <children xsi:type="advanced:Placeholder" xmi:id="_As_o4X7REfCfF6ulTDBT_g" elementId="org.yamcs.studio.archive.ArchiveView" toBeRendered="false" ref="_As9MkH7REfCfF6ulTDBT_g" closeable="true">
                       <tags>View</tags>
                       <tags>categoryTag:Yamcs Server</tags>
                     </children>
-                    <children xsi:type="advanced:Placeholder" xmi:id="_RZWGl5frEe6C5ZFf2fSImA" elementId="org.yamcs.studio.eventlog.EventLogView" ref="_RZWHM5frEe6C5ZFf2fSImA" closeable="true">
+                    <children xsi:type="advanced:Placeholder" xmi:id="_As_o4n7REfCfF6ulTDBT_g" elementId="org.yamcs.studio.eventlog.EventLogView" ref="_As-asH7REfCfF6ulTDBT_g" closeable="true">
                       <tags>View</tags>
                       <tags>categoryTag:Yamcs Server</tags>
                     </children>
-                    <children xsi:type="advanced:Placeholder" xmi:id="_RZWGmJfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.commanding.stack.CommandStackView" ref="_RZWHNJfrEe6C5ZFf2fSImA" closeable="true">
+                    <children xsi:type="advanced:Placeholder" xmi:id="_As_o437REfCfF6ulTDBT_g" elementId="org.yamcs.studio.commanding.stack.CommandStackView" ref="_As-asX7REfCfF6ulTDBT_g" closeable="true">
                       <tags>View</tags>
                       <tags>categoryTag:Yamcs Server</tags>
                     </children>
-                    <children xsi:type="advanced:Placeholder" xmi:id="_RZWGmZfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.commanding.cmdhist.CommandHistoryView" ref="_RZWHQpfrEe6C5ZFf2fSImA" closeable="true">
+                    <children xsi:type="advanced:Placeholder" xmi:id="_As_o5H7REfCfF6ulTDBT_g" elementId="org.yamcs.studio.commanding.cmdhist.CommandHistoryView" ref="_As_BwH7REfCfF6ulTDBT_g" closeable="true">
                       <tags>View</tags>
                       <tags>categoryTag:Yamcs Server</tags>
                     </children>
-                    <children xsi:type="advanced:Placeholder" xmi:id="_RZWGmpfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.links.LinksView" toBeRendered="false" ref="_RZWHTpfrEe6C5ZFf2fSImA" closeable="true">
+                    <children xsi:type="advanced:Placeholder" xmi:id="_As_o5X7REfCfF6ulTDBT_g" elementId="org.yamcs.studio.links.LinksView" toBeRendered="false" ref="_As_BwX7REfCfF6ulTDBT_g" closeable="true">
                       <tags>View</tags>
                       <tags>categoryTag:Yamcs Server</tags>
                     </children>
-                    <children xsi:type="advanced:Placeholder" xmi:id="_RZWGm5frEe6C5ZFf2fSImA" elementId="org.yamcs.studio.editor.base.views.FunctionsView" toBeRendered="false" ref="_RZWHT5frEe6C5ZFf2fSImA" closeable="true">
+                    <children xsi:type="advanced:Placeholder" xmi:id="_As_o5n7REfCfF6ulTDBT_g" elementId="org.yamcs.studio.editor.base.views.FunctionsView" toBeRendered="false" ref="_As_Bwn7REfCfF6ulTDBT_g" closeable="true">
                       <tags>View</tags>
                       <tags>categoryTag:Other</tags>
                     </children>
                   </children>
                 </children>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_RZWGnJfrEe6C5ZFf2fSImA" elementId="RIGHT" visible="false" containerData="2500" selectedElement="_RZWGnpfrEe6C5ZFf2fSImA">
-                <tags>General</tags>
-                <tags>Minimized</tags>
-                <children xsi:type="advanced:Placeholder" xmi:id="_RZWGnZfrEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.opiViewRIGHT:*" toBeRendered="false" ref="_RZWHHpfrEe6C5ZFf2fSImA" closeable="true">
+              <children xsi:type="basic:PartStack" xmi:id="_As_o537REfCfF6ulTDBT_g" elementId="RIGHT" toBeRendered="false" containerData="2500">
+                <children xsi:type="advanced:Placeholder" xmi:id="_As_o6H7REfCfF6ulTDBT_g" elementId="org.csstudio.opibuilder.opiViewRIGHT:*" toBeRendered="false" ref="_As0psX7REfCfF6ulTDBT_g" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:OPI</tags>
                 </children>
-                <children xsi:type="advanced:Placeholder" xmi:id="_RZWGnpfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.console.ConsoleView:Console View #1" ref="_RZWHZpfrEe6C5ZFf2fSImA" closeable="true">
-                  <tags>View</tags>
-                  <tags>categoryTag:General</tags>
-                </children>
               </children>
             </children>
           </children>
-          <windows xsi:type="basic:TrimmedWindow" xmi:id="_RZWGn5frEe6C5ZFf2fSImA" toBeRendered="false" x="414" y="194" width="945" height="465">
-            <children xsi:type="basic:PartStack" xmi:id="_RZWGoJfrEe6C5ZFf2fSImA" elementId="PartStack@6db342f2" toBeRendered="false">
-              <children xsi:type="advanced:Placeholder" xmi:id="_RZWGoZfrEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.opiView:12aa0a7a-19fd-4b00-b0ff-e1f30247ef10" toBeRendered="false" ref="_RZWHc5frEe6C5ZFf2fSImA" closeable="true">
-                <tags>View</tags>
-                <tags>categoryTag:OPI</tags>
-              </children>
-            </children>
-          </windows>
-          <windows xsi:type="basic:TrimmedWindow" xmi:id="_RZWGopfrEe6C5ZFf2fSImA" toBeRendered="false" x="432" y="214" width="945" height="465">
-            <children xsi:type="basic:PartStack" xmi:id="_RZWGo5frEe6C5ZFf2fSImA" elementId="PartStack@2168b4b3" toBeRendered="false">
-              <children xsi:type="advanced:Placeholder" xmi:id="_RZWGpJfrEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.opiView:afe63d92-ed68-4811-84d3-7e19f22ad81a" toBeRendered="false" ref="_RZWHdpfrEe6C5ZFf2fSImA" closeable="true">
-                <tags>View</tags>
-                <tags>categoryTag:OPI</tags>
-              </children>
-            </children>
-          </windows>
         </children>
       </children>
-      <children xsi:type="basic:PartStack" xmi:id="_RZWGpZfrEe6C5ZFf2fSImA" elementId="stickyFolderRight" toBeRendered="false" containerData="2500">
-        <children xsi:type="advanced:Placeholder" xmi:id="_RZWGppfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.internal.introview" toBeRendered="false" ref="_RZWHGpfrEe6C5ZFf2fSImA" closeable="true">
+      <children xsi:type="basic:PartStack" xmi:id="_ArqMEn7REfCfF6ulTDBT_g" elementId="stickyFolderRight" toBeRendered="false" containerData="2500">
+        <children xsi:type="advanced:Placeholder" xmi:id="_ArqME37REfCfF6ulTDBT_g" elementId="org.eclipse.ui.internal.introview" toBeRendered="false" ref="_Aro98H7REfCfF6ulTDBT_g" closeable="true">
           <tags>View</tags>
           <tags>categoryTag:General</tags>
         </children>
       </children>
     </children>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWHGpfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.internal.introview" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Welcome" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.ViewIntroAdapterPart"/>
+    <sharedElements xsi:type="basic:Part" xmi:id="_Aro98H7REfCfF6ulTDBT_g" elementId="org.eclipse.ui.internal.introview" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Welcome" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.ViewIntroAdapterPart"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
     </sharedElements>
-    <sharedElements xsi:type="advanced:Area" xmi:id="_RZWHG5frEe6C5ZFf2fSImA" elementId="org.eclipse.ui.editorss">
-      <children xsi:type="basic:PartStack" xmi:id="_RZWHHJfrEe6C5ZFf2fSImA" elementId="org.eclipse.e4.primaryDataStack">
-        <tags>org.eclipse.e4.primaryDataStack</tags>
+    <sharedElements xsi:type="advanced:Area" xmi:id="_AsyNcH7REfCfF6ulTDBT_g" elementId="org.eclipse.ui.editorss">
+      <children xsi:type="basic:PartStack" xmi:id="_AsyNcX7REfCfF6ulTDBT_g" elementId="org.eclipse.e4.primaryDataStack">
         <tags>EditorStack</tags>
+        <tags>org.eclipse.e4.primaryDataStack</tags>
       </children>
     </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWHHZfrEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.opiViewLEFT:*" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="OPI View (Left)" iconURI="platform:/plugin/org.csstudio.opibuilder/icons/file_opi.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewClass" value="org.csstudio.opibuilder.runmode.OPIView"/>
+    <sharedElements xsi:type="basic:Part" xmi:id="_As0psH7REfCfF6ulTDBT_g" elementId="org.csstudio.opibuilder.opiViewLEFT:*" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="OPI View (Left)" iconURI="platform:/plugin/org.csstudio.opibuilder/icons/file_opi.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewBundle" value="org.csstudio.opibuilder"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.csstudio.opibuilder.runmode.OPIView"/>
       <tags>View</tags>
       <tags>categoryTag:OPI</tags>
     </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWHHpfrEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.opiViewRIGHT:*" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="OPI View (Right)" iconURI="platform:/plugin/org.csstudio.opibuilder/icons/file_opi.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewClass" value="org.csstudio.opibuilder.runmode.OPIView"/>
+    <sharedElements xsi:type="basic:Part" xmi:id="_As0psX7REfCfF6ulTDBT_g" elementId="org.csstudio.opibuilder.opiViewRIGHT:*" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="OPI View (Right)" iconURI="platform:/plugin/org.csstudio.opibuilder/icons/file_opi.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewBundle" value="org.csstudio.opibuilder"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.csstudio.opibuilder.runmode.OPIView"/>
       <tags>View</tags>
       <tags>categoryTag:OPI</tags>
     </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWHH5frEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.opiViewTOP:*" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="OPI View (Top)" iconURI="platform:/plugin/org.csstudio.opibuilder/icons/file_opi.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewClass" value="org.csstudio.opibuilder.runmode.OPIView"/>
+    <sharedElements xsi:type="basic:Part" xmi:id="_As0psn7REfCfF6ulTDBT_g" elementId="org.csstudio.opibuilder.opiViewTOP:*" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="OPI View (Top)" iconURI="platform:/plugin/org.csstudio.opibuilder/icons/file_opi.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewBundle" value="org.csstudio.opibuilder"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.csstudio.opibuilder.runmode.OPIView"/>
       <tags>View</tags>
       <tags>categoryTag:OPI</tags>
     </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWHIJfrEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.opiViewBOTTOM:*" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="OPI View (Bottom)" iconURI="platform:/plugin/org.csstudio.opibuilder/icons/file_opi.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewClass" value="org.csstudio.opibuilder.runmode.OPIView"/>
+    <sharedElements xsi:type="basic:Part" xmi:id="_As130H7REfCfF6ulTDBT_g" elementId="org.csstudio.opibuilder.opiViewBOTTOM:*" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="OPI View (Bottom)" iconURI="platform:/plugin/org.csstudio.opibuilder/icons/file_opi.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewBundle" value="org.csstudio.opibuilder"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.csstudio.opibuilder.runmode.OPIView"/>
       <tags>View</tags>
       <tags>categoryTag:OPI</tags>
     </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWHIZfrEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.opiView:*" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="OPI View" iconURI="platform:/plugin/org.csstudio.opibuilder/icons/file_opi.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewClass" value="org.csstudio.opibuilder.runmode.OPIView"/>
+    <sharedElements xsi:type="basic:Part" xmi:id="_As130X7REfCfF6ulTDBT_g" elementId="org.csstudio.opibuilder.opiView:*" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="OPI View" iconURI="platform:/plugin/org.csstudio.opibuilder/icons/file_opi.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewBundle" value="org.csstudio.opibuilder"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.csstudio.opibuilder.runmode.OPIView"/>
       <tags>View</tags>
       <tags>categoryTag:OPI</tags>
     </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWHIpfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.console.ConsoleView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Console" iconURI="platform:/plugin/org.eclipse.ui.console/icons/full/cview16/console_view.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.console.ConsoleView"/>
+    <sharedElements xsi:type="basic:Part" xmi:id="_As130n7REfCfF6ulTDBT_g" elementId="org.eclipse.ui.console.ConsoleView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Console" iconURI="platform:/plugin/org.eclipse.ui.console/icons/full/cview16/console_view.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.console"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.console.ConsoleView"/>
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <menus xmi:id="_RZWHI5frEe6C5ZFf2fSImA" elementId="org.eclipse.ui.console.ConsoleView">
+      <menus xmi:id="_AtxE4H7REfCfF6ulTDBT_g" elementId="org.eclipse.ui.console.ConsoleView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_RZWHJZfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.console.ConsoleView" visible="false"/>
+      <toolbar xmi:id="_AtxE4X7REfCfF6ulTDBT_g" elementId="org.eclipse.ui.console.ConsoleView" visible="false"/>
     </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWHL5frEe6C5ZFf2fSImA" elementId="org.yamcs.studio.explorer.view" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Explorer" iconURI="platform:/plugin/org.yamcs.studio.explorer/icons/eview16/filenav_nav.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewClass" value="org.yamcs.studio.explorer.ExplorerView"/>
+    <sharedElements xsi:type="basic:Part" xmi:id="_As2e4H7REfCfF6ulTDBT_g" elementId="org.yamcs.studio.explorer.view" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Explorer" iconURI="platform:/plugin/org.yamcs.studio.explorer/icons/eview16/filenav_nav.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewBundle" value="org.yamcs.studio.explorer"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.yamcs.studio.explorer.ExplorerView"/>
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xD;&#xA;&lt;lastRecentlyUsedFilters/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:Yamcs Server</tags>
-      <menus xmi:id="_RZWHMJfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.explorer.view">
+      <menus xmi:id="_AtHkoH7REfCfF6ulTDBT_g" elementId="org.yamcs.studio.explorer.view">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_RZWHMZfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.explorer.view"/>
+      <toolbar xmi:id="_AtHkoX7REfCfF6ulTDBT_g" elementId="org.yamcs.studio.explorer.view" visible="false"/>
     </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWHMpfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.archive.ArchiveView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Archive" iconURI="platform:/plugin/org.yamcs.studio.archive/icons/eview16/archive.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewClass" value="org.yamcs.studio.archive.ArchiveView"/>
+    <sharedElements xsi:type="basic:Part" xmi:id="_As9MkH7REfCfF6ulTDBT_g" elementId="org.yamcs.studio.archive.ArchiveView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Archive" iconURI="platform:/plugin/org.yamcs.studio.archive/icons/eview16/archive.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewBundle" value="org.yamcs.studio.archive"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.yamcs.studio.archive.ArchiveView"/>
       <tags>View</tags>
       <tags>categoryTag:Yamcs Server</tags>
     </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWHM5frEe6C5ZFf2fSImA" elementId="org.yamcs.studio.eventlog.EventLogView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Event Log" iconURI="platform:/plugin/org.yamcs.studio.eventlog/icons/eview16/event-log.gif" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewClass" value="org.yamcs.studio.eventlog.EventLogView"/>
+    <sharedElements xsi:type="basic:Part" xmi:id="_As-asH7REfCfF6ulTDBT_g" elementId="org.yamcs.studio.eventlog.EventLogView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Event Log" iconURI="platform:/plugin/org.yamcs.studio.eventlog/icons/eview16/event-log.gif" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewBundle" value="org.yamcs.studio.eventlog"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.yamcs.studio.eventlog.EventLogView"/>
       <tags>View</tags>
       <tags>categoryTag:Yamcs Server</tags>
     </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWHNJfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.commanding.stack.CommandStackView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Command Stack" iconURI="platform:/plugin/org.yamcs.studio.commanding/icons/eview16/tc_add.png" tooltip="" closeable="true">
+    <sharedElements xsi:type="basic:Part" xmi:id="_As-asX7REfCfF6ulTDBT_g" elementId="org.yamcs.studio.commanding.stack.CommandStackView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Command Stack" iconURI="platform:/plugin/org.yamcs.studio.commanding/icons/eview16/tc_add.png" tooltip="" closeable="true">
+      <persistedState key="originalCompatibilityViewBundle" value="org.yamcs.studio.commanding"/>
       <persistedState key="originalCompatibilityViewClass" value="org.yamcs.studio.commanding.stack.CommandStackView"/>
-      <persistedState key="originalCompatibilityViewBundle" value="org.yamcs.studio.commanding"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Yamcs Server</tags>
-      <menus xmi:id="_RZWHNZfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.commanding.stack.CommandStackView">
-        <tags>ViewMenu</tags>
-        <tags>menuContribution:menu</tags>
-      </menus>
-      <toolbar xmi:id="_RZWHNpfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.commanding.stack.CommandStackView"/>
     </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWHQpfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.commanding.cmdhist.CommandHistoryView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Command History" iconURI="platform:/plugin/org.yamcs.studio.commanding/icons/eview16/tc.png" tooltip="" closeable="true">
+    <sharedElements xsi:type="basic:Part" xmi:id="_As_BwH7REfCfF6ulTDBT_g" elementId="org.yamcs.studio.commanding.cmdhist.CommandHistoryView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Command History" iconURI="platform:/plugin/org.yamcs.studio.commanding/icons/eview16/tc.png" tooltip="" closeable="true">
+      <persistedState key="originalCompatibilityViewBundle" value="org.yamcs.studio.commanding"/>
       <persistedState key="originalCompatibilityViewClass" value="org.yamcs.studio.commanding.cmdhist.CommandHistoryView"/>
-      <persistedState key="originalCompatibilityViewBundle" value="org.yamcs.studio.commanding"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:Yamcs Server</tags>
-      <menus xmi:id="_RZWHQ5frEe6C5ZFf2fSImA" elementId="org.yamcs.studio.commanding.cmdhist.CommandHistoryView">
-        <tags>ViewMenu</tags>
-        <tags>menuContribution:menu</tags>
-      </menus>
-      <toolbar xmi:id="_RZWHSJfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.commanding.cmdhist.CommandHistoryView" visible="false"/>
     </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWHTpfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.links.LinksView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Links" iconURI="platform:/plugin/org.yamcs.studio.links/icons/eview16/synced.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewClass" value="org.yamcs.studio.links.LinksView"/>
+    <sharedElements xsi:type="basic:Part" xmi:id="_As_BwX7REfCfF6ulTDBT_g" elementId="org.yamcs.studio.links.LinksView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Links" iconURI="platform:/plugin/org.yamcs.studio.links/icons/eview16/synced.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewBundle" value="org.yamcs.studio.links"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.yamcs.studio.links.LinksView"/>
       <tags>View</tags>
       <tags>categoryTag:Yamcs Server</tags>
     </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWHT5frEe6C5ZFf2fSImA" elementId="org.yamcs.studio.editor.base.views.FunctionsView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Function Reference" iconURI="platform:/plugin/org.yamcs.studio.editor.base/icons/eview16/formula-viewer-16.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewClass" value="org.yamcs.studio.editor.base.views.FunctionsView"/>
+    <sharedElements xsi:type="basic:Part" xmi:id="_As_Bwn7REfCfF6ulTDBT_g" elementId="org.yamcs.studio.editor.base.views.FunctionsView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Function Reference" iconURI="platform:/plugin/org.yamcs.studio.editor.base/icons/eview16/formula-viewer-16.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewBundle" value="org.yamcs.studio.editor.base"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.yamcs.studio.editor.base.views.FunctionsView"/>
       <tags>View</tags>
       <tags>categoryTag:Other</tags>
     </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWHUJfrEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.opiView:80e39e9a-9776-4caf-9d84-c2a86c05fafe" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="data.opi" iconURI="platform:/plugin/org.csstudio.opibuilder/icons/file_opi.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewClass" value="org.csstudio.opibuilder.runmode.OPIView"/>
+    <sharedElements xsi:type="basic:Part" xmi:id="_AwiFAH7REfCfF6ulTDBT_g" elementId="org.csstudio.opibuilder.opiView:b01bf830-a3a7-4c97-8556-168404775ad9" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="data.opi" iconURI="platform:/plugin/org.csstudio.opibuilder/icons/file_opi.png" tooltip="" closeable="true">
       <persistedState key="originalCompatibilityViewBundle" value="org.csstudio.opibuilder"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view factory_id=&quot;org.csstudio.opibuilder.runmode.RunnerInputFactory&quot;>&#xD;&#xA;&lt;input path=&quot;/trace/data.opi&quot;/>&#xD;&#xA;&lt;/view>"/>
+      <persistedState key="originalCompatibilityViewClass" value="org.csstudio.opibuilder.runmode.OPIView"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view factory_id=&quot;org.csstudio.opibuilder.runmode.RunnerInputFactory&quot;>&#xD;&#xA;&lt;input path=&quot;/tracer/data.opi&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:OPI</tags>
       <tags>active</tags>
-      <menus xmi:id="_RZWHUZfrEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.opiView">
+      <tags>activeOnClose</tags>
+      <menus xmi:id="_AwsdEH7REfCfF6ulTDBT_g" elementId="org.csstudio.opibuilder.opiView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_RZWHYJfrEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.opiView"/>
+      <toolbar xmi:id="_AwsdEX7REfCfF6ulTDBT_g" elementId="org.csstudio.opibuilder.opiView" visible="false"/>
     </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWHZpfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.console.ConsoleView:Console View #1" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Console" iconURI="platform:/plugin/org.eclipse.ui.console/icons/full/cview16/console_view.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.console"/>
-      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.console.ConsoleView"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
-      <tags>View</tags>
-      <tags>categoryTag:General</tags>
-      <menus xmi:id="_RZWHZ5frEe6C5ZFf2fSImA" elementId="org.eclipse.ui.console.ConsoleView">
-        <tags>ViewMenu</tags>
-        <tags>menuContribution:menu</tags>
-      </menus>
-      <toolbar xmi:id="_RZWHaZfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.console.ConsoleView"/>
-    </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWHc5frEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.opiView:12aa0a7a-19fd-4b00-b0ff-e1f30247ef10" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Probe" iconURI="platform:/plugin/org.csstudio.opibuilder/icons/file_opi.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewBundle" value="org.csstudio.opibuilder"/>
-      <persistedState key="originalCompatibilityViewClass" value="org.csstudio.opibuilder.runmode.OPIView"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view factory_id=&quot;org.csstudio.opibuilder.runmode.RunnerInputFactory&quot;>&#xD;&#xA;&lt;input macro=&quot;&amp;quot;true&amp;quot;&quot; path=&quot;platform:/plugin/org.csstudio.opibuilder/opi/probe.opi&quot;/>&#xD;&#xA;&lt;/view>"/>
-      <tags>View</tags>
-      <tags>categoryTag:OPI</tags>
-      <menus xmi:id="_RZWHdJfrEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.opiView">
-        <tags>ViewMenu</tags>
-        <tags>menuContribution:menu</tags>
-      </menus>
-      <toolbar xmi:id="_RZWHdZfrEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.opiView" visible="false"/>
-    </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWHdpfrEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.opiView:afe63d92-ed68-4811-84d3-7e19f22ad81a" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Probe" iconURI="platform:/plugin/org.csstudio.opibuilder/icons/file_opi.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewBundle" value="org.csstudio.opibuilder"/>
-      <persistedState key="originalCompatibilityViewClass" value="org.csstudio.opibuilder.runmode.OPIView"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view factory_id=&quot;org.csstudio.opibuilder.runmode.RunnerInputFactory&quot;>&#xD;&#xA;&lt;input macro=&quot;&amp;quot;true&amp;quot;,&amp;quot;probe_pv=/trace/FFU_cam_status&amp;quot;,&amp;quot;probe_pv_0=/trace/FFU_cam_status&amp;quot;&quot; path=&quot;platform:/plugin/org.csstudio.opibuilder/opi/probe.opi&quot;/>&#xD;&#xA;&lt;/view>"/>
-      <tags>View</tags>
-      <tags>categoryTag:OPI</tags>
-      <menus xmi:id="_RZWHd5frEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.opiView">
-        <tags>ViewMenu</tags>
-        <tags>menuContribution:menu</tags>
-      </menus>
-      <toolbar xmi:id="_RZWHeJfrEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.opiView" visible="false"/>
-    </sharedElements>
-    <trimBars xmi:id="_RZWHeZfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.main.toolbar" visible="false">
-      <children xsi:type="menu:ToolBar" xmi:id="_RZWHepfrEe6C5ZFf2fSImA" elementId="group.application" toBeRendered="false">
+    <trimBars xmi:id="_ArudgH7REfCfF6ulTDBT_g" elementId="org.eclipse.ui.main.toolbar">
+      <children xsi:type="menu:ToolBar" xmi:id="_Arw5wH7REfCfF6ulTDBT_g" elementId="group.application" toBeRendered="false">
         <tags>toolbarSeparator</tags>
-        <children xsi:type="menu:ToolBarSeparator" xmi:id="_RZWHe5frEe6C5ZFf2fSImA" elementId="group.application" toBeRendered="false"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_Arxg0H7REfCfF6ulTDBT_g" elementId="group.application" toBeRendered="false"/>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_RZWHfJfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.workbench.file">
+      <children xsi:type="menu:ToolBar" xmi:id="_Arxg0X7REfCfF6ulTDBT_g" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_RZWHhZfrEe6C5ZFf2fSImA" elementId="additions" toBeRendered="false">
+      <children xsi:type="menu:ToolBar" xmi:id="_Arxg0n7REfCfF6ulTDBT_g" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
-        <children xsi:type="menu:ToolBarSeparator" xmi:id="_RZWHhpfrEe6C5ZFf2fSImA" elementId="additions" toBeRendered="false"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_Arxg037REfCfF6ulTDBT_g" elementId="additions" toBeRendered="false"/>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_RZWHi5frEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.editor.runtimeActionSet">
+      <children xsi:type="menu:ToolBar" xmi:id="_AuFN8H7REfCfF6ulTDBT_g" elementId="org.csstudio.opibuilder.editor.runtimeActionSet">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_RZWHjpfrEe6C5ZFf2fSImA" elementId="org.eclipse.search.searchActionSet">
+      <children xsi:type="menu:ToolBar" xmi:id="_AuNJwH7REfCfF6ulTDBT_g" elementId="org.eclipse.search.searchActionSet">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_RZWHkZfrEe6C5ZFf2fSImA" elementId="group.editor" toBeRendered="false">
+      <children xsi:type="menu:ToolBar" xmi:id="_Arxg1H7REfCfF6ulTDBT_g" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
-        <children xsi:type="menu:ToolBarSeparator" xmi:id="_RZWHkpfrEe6C5ZFf2fSImA" elementId="group.editor" toBeRendered="false"/>
+        <children xsi:type="menu:ToolBarSeparator" xmi:id="_Arxg1X7REfCfF6ulTDBT_g" elementId="group.editor" toBeRendered="false"/>
       </children>
-      <children xsi:type="menu:ToolControl" xmi:id="_RZWHk5frEe6C5ZFf2fSImA" elementId="PerspectiveSpacer" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
+      <children xsi:type="menu:ToolControl" xmi:id="_AsDNoH7REfCfF6ulTDBT_g" elementId="PerspectiveSpacer" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
         <tags>stretch</tags>
         <tags>SHOW_RESTORE_MENU</tags>
       </children>
     </trimBars>
-    <trimBars xmi:id="_RZWHlJfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.trim.status" side="Bottom">
-      <children xsi:type="menu:ToolControl" xmi:id="_RZWHlZfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.StatusLine" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim">
+    <trimBars xmi:id="_AsEbwH7REfCfF6ulTDBT_g" elementId="org.eclipse.ui.trim.status" side="Bottom">
+      <children xsi:type="menu:ToolControl" xmi:id="_AsEbwX7REfCfF6ulTDBT_g" elementId="org.eclipse.ui.StatusLine" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim">
         <tags>stretch</tags>
       </children>
-      <children xsi:type="menu:ToolControl" xmi:id="_RZWHlpfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.HeapStatus" toBeRendered="false" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim">
+      <children xsi:type="menu:ToolControl" xmi:id="_AsM-oH7REfCfF6ulTDBT_g" elementId="org.eclipse.ui.HeapStatus" toBeRendered="false" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim">
         <tags>Draggable</tags>
       </children>
-      <children xsi:type="menu:ToolControl" xmi:id="_RZWHl5frEe6C5ZFf2fSImA" elementId="org.eclipse.ui.ProgressBar" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim">
+      <children xsi:type="menu:ToolControl" xmi:id="_AsWIkH7REfCfF6ulTDBT_g" elementId="org.eclipse.ui.ProgressBar" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim">
         <tags>Draggable</tags>
       </children>
     </trimBars>
-    <trimBars xmi:id="_RZWHmJfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.trim.vertical1" side="Left">
-      <children xsi:type="menu:ToolControl" xmi:id="_RZWHmZfrEe6C5ZFf2fSImA" elementId="LEFT(org.csstudio.opibuilder.OPIRuntime.perspective)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
-        <tags>TrimStack</tags>
-        <tags>Draggable</tags>
-      </children>
-      <children xsi:type="menu:ToolControl" xmi:id="_RZWHmpfrEe6C5ZFf2fSImA" elementId="DEFAULT_VIEW(org.csstudio.opibuilder.OPIRuntime.perspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+    <trimBars xmi:id="_Asf5kH7REfCfF6ulTDBT_g" elementId="org.eclipse.ui.trim.vertical1" side="Left">
+      <children xsi:type="menu:ToolControl" xmi:id="_DFtzsH7REfCfF6ulTDBT_g" elementId="LEFT(org.csstudio.opibuilder.OPIRuntime.perspective)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
         <tags>TrimStack</tags>
         <tags>Draggable</tags>
       </children>
     </trimBars>
-    <trimBars xmi:id="_RZWHm5frEe6C5ZFf2fSImA" elementId="org.eclipse.ui.trim.vertical2" side="Right">
-      <children xsi:type="menu:ToolControl" xmi:id="_RZWHnJfrEe6C5ZFf2fSImA" elementId="BOTTOM(org.csstudio.opibuilder.OPIRuntime.perspective)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
-        <tags>TrimStack</tags>
-        <tags>Draggable</tags>
-      </children>
-      <children xsi:type="menu:ToolControl" xmi:id="_RZWHnZfrEe6C5ZFf2fSImA" elementId="RIGHT(org.csstudio.opibuilder.OPIRuntime.perspective)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+    <trimBars xmi:id="_AsggoH7REfCfF6ulTDBT_g" elementId="org.eclipse.ui.trim.vertical2" side="Right">
+      <children xsi:type="menu:ToolControl" xmi:id="_DXncAH7REfCfF6ulTDBT_g" elementId="BOTTOM(org.csstudio.opibuilder.OPIRuntime.perspective)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
         <tags>TrimStack</tags>
         <tags>Draggable</tags>
       </children>
     </trimBars>
-  </children>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_RZWHnpfrEe6C5ZFf2fSImA" selectedElement="_RZWHn5frEe6C5ZFf2fSImA" x="-11" y="-11" width="1024" height="768">
-    <persistedState key="coolBarVisible" value="true"/>
-    <persistedState key="perspectiveBarVisible" value="true"/>
-    <persistedState key="isRestored" value="true"/>
-    <tags>topLevel</tags>
-    <children xsi:type="basic:PartSashContainer" xmi:id="_RZWHn5frEe6C5ZFf2fSImA" selectedElement="_RZWHoJfrEe6C5ZFf2fSImA" horizontal="true">
-      <children xsi:type="advanced:PerspectiveStack" xmi:id="_RZWHoJfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_RZWHoZfrEe6C5ZFf2fSImA">
-        <children xsi:type="advanced:Perspective" xmi:id="_RZWHoZfrEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.opieditor" selectedElement="_RZWHopfrEe6C5ZFf2fSImA" label="Display Builder" iconURI="platform:/plugin/org.yamcs.studio.editor.base/icons/placeholder.gif">
-          <persistedState key="persp.hiddenItems" value="persp.hideToolbarSC:print,persp.hideToolbarSC:org.eclipse.ui.edit.undo,persp.hideToolbarSC:org.eclipse.ui.edit.redo,persp.hideToolbarSC:org.eclipse.ui.edit.text.toggleShowSelectedElementOnly,"/>
-          <tags>persp.actionSet:org.csstudio.opibuilder.actionSet</tags>
-          <tags>persp.actionSet:org.eclipse.search.searchActionSet</tags>
-          <tags>persp.actionSet:org.eclipse.ui.actionSet.keyBindings</tags>
-          <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
-          <tags>persp.viewSC:org.eclipse.ui.views.PropertySheet</tags>
-          <tags>persp.viewSC:org.eclipse.ui.views.ContentOutline</tags>
-          <tags>persp.viewSC:org.eclipse.ui.console.ConsoleView</tags>
-          <tags>persp.viewSC:org.yamcs.studio.explorer.view</tags>
-          <tags>persp.viewSC:org.yamcs.studio.editor.base.views.FunctionsView</tags>
-          <tags>persp.viewSC:org.eclipse.help.ui.HelpView</tags>
-          <tags>persp.newWizSC:org.eclipse.ui.wizards.new.folder</tags>
-          <tags>persp.newWizSC:org.csstudio.opibuilder.wizards.newOPIWizard</tags>
-          <tags>persp.newWizSC:org.csstudio.opibuilder.wizards.newJSWizard</tags>
-          <tags>persp.actionSet:org.csstudio.opibuilder.editor.actionSet</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_RZWHopfrEe6C5ZFf2fSImA" selectedElement="_RZWHqZfrEe6C5ZFf2fSImA" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_RZWHo5frEe6C5ZFf2fSImA" containerData="1047" selectedElement="_RZWHpJfrEe6C5ZFf2fSImA">
-              <children xsi:type="basic:PartStack" xmi:id="_RZWHpJfrEe6C5ZFf2fSImA" elementId="left" containerData="7000" selectedElement="_RZWHpZfrEe6C5ZFf2fSImA">
-                <children xsi:type="advanced:Placeholder" xmi:id="_RZWHpZfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.explorer.view" ref="_RZWIUpfrEe6C5ZFf2fSImA" closeable="true">
-                  <tags>View</tags>
-                  <tags>categoryTag:Yamcs Server</tags>
-                </children>
-              </children>
-              <children xsi:type="basic:PartStack" xmi:id="_RZWHppfrEe6C5ZFf2fSImA" elementId="leftBottom" containerData="3000" selectedElement="_RZWHp5frEe6C5ZFf2fSImA">
-                <children xsi:type="advanced:Placeholder" xmi:id="_RZWHp5frEe6C5ZFf2fSImA" elementId="org.eclipse.ui.views.ContentOutline" ref="_RZWIZJfrEe6C5ZFf2fSImA" closeable="true">
-                  <tags>View</tags>
-                  <tags>categoryTag:General</tags>
-                </children>
-                <children xsi:type="advanced:Placeholder" xmi:id="_RZWHqJfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.views.minimap.MinimapView" toBeRendered="false" ref="_RZWIh5frEe6C5ZFf2fSImA" closeable="true">
-                  <tags>View</tags>
-                  <tags>categoryTag:General</tags>
-                </children>
-              </children>
-            </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_RZWHqZfrEe6C5ZFf2fSImA" containerData="8953" selectedElement="_RZWHqpfrEe6C5ZFf2fSImA" horizontal="true">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_RZWHqpfrEe6C5ZFf2fSImA" containerData="7500" selectedElement="_RZWHq5frEe6C5ZFf2fSImA">
-                <children xsi:type="advanced:Placeholder" xmi:id="_RZWHq5frEe6C5ZFf2fSImA" elementId="org.eclipse.ui.editorss" containerData="9000" ref="_RZWILZfrEe6C5ZFf2fSImA"/>
-                <children xsi:type="basic:PartStack" xmi:id="_RZWHrJfrEe6C5ZFf2fSImA" elementId="bottom" containerData="1000" selectedElement="_RZWHrZfrEe6C5ZFf2fSImA">
-                  <children xsi:type="advanced:Placeholder" xmi:id="_RZWHrZfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.console.ConsoleView" ref="_RZWIeJfrEe6C5ZFf2fSImA" closeable="true">
-                    <tags>View</tags>
-                    <tags>categoryTag:General</tags>
-                  </children>
-                  <children xsi:type="advanced:Placeholder" xmi:id="_RZWHrpfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.editor.base.views.FunctionsView" ref="_RZWIhZfrEe6C5ZFf2fSImA" closeable="true">
-                    <tags>View</tags>
-                    <tags>categoryTag:Other</tags>
-                  </children>
-                  <children xsi:type="advanced:Placeholder" xmi:id="_RZWHr5frEe6C5ZFf2fSImA" elementId="org.eclipse.ui.views.ProgressView" toBeRendered="false" ref="_RZWIhpfrEe6C5ZFf2fSImA" closeable="true">
-                    <tags>View</tags>
-                    <tags>categoryTag:General</tags>
-                  </children>
-                  <children xsi:type="advanced:Placeholder" xmi:id="_RZWHsJfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.archive.ArchiveView" toBeRendered="false" ref="_RZWIiJfrEe6C5ZFf2fSImA" closeable="true">
-                    <tags>View</tags>
-                    <tags>categoryTag:Yamcs Server</tags>
-                  </children>
-                  <children xsi:type="advanced:Placeholder" xmi:id="_RZWHsZfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.eventlog.EventLogView" toBeRendered="false" ref="_RZWIiZfrEe6C5ZFf2fSImA" closeable="true">
-                    <tags>View</tags>
-                    <tags>categoryTag:Yamcs Server</tags>
-                  </children>
-                  <children xsi:type="advanced:Placeholder" xmi:id="_RZWHspfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.commanding.stack.CommandStackView" toBeRendered="false" ref="_RZWIipfrEe6C5ZFf2fSImA" closeable="true">
-                    <tags>View</tags>
-                    <tags>categoryTag:Yamcs Server</tags>
-                  </children>
-                  <children xsi:type="advanced:Placeholder" xmi:id="_RZWHs5frEe6C5ZFf2fSImA" elementId="org.yamcs.studio.commanding.cmdhist.CommandHistoryView" toBeRendered="false" ref="_RZWIi5frEe6C5ZFf2fSImA" closeable="true">
-                    <tags>View</tags>
-                    <tags>categoryTag:Yamcs Server</tags>
-                  </children>
-                  <children xsi:type="advanced:Placeholder" xmi:id="_RZWHtJfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.links.LinksView" toBeRendered="false" ref="_RZWIjJfrEe6C5ZFf2fSImA" closeable="true">
-                    <tags>View</tags>
-                    <tags>categoryTag:Yamcs Server</tags>
-                  </children>
-                </children>
-              </children>
-              <children xsi:type="basic:PartStack" xmi:id="_RZWHtZfrEe6C5ZFf2fSImA" elementId="right" containerData="2500" selectedElement="_RZWHtpfrEe6C5ZFf2fSImA">
-                <children xsi:type="advanced:Placeholder" xmi:id="_RZWHtpfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.views.PropertySheet" ref="_RZWIapfrEe6C5ZFf2fSImA" closeable="true">
-                  <tags>View</tags>
-                  <tags>categoryTag:General</tags>
-                </children>
-              </children>
-            </children>
-          </children>
-        </children>
-      </children>
-      <children xsi:type="basic:PartStack" xmi:id="_RZWHt5frEe6C5ZFf2fSImA" elementId="stickyFolderRight" toBeRendered="false" containerData="2500">
-        <children xsi:type="advanced:Placeholder" xmi:id="_RZWHuJfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.internal.introview" toBeRendered="false" ref="_RZWILJfrEe6C5ZFf2fSImA" closeable="true">
-          <tags>View</tags>
-          <tags>categoryTag:General</tags>
-        </children>
-      </children>
-    </children>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWILJfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.internal.introview" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Welcome" iconURI="platform:/plugin/org.eclipse.ui/icons/full/eview16/defaultview_misc.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui"/>
-      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.ViewIntroAdapterPart"/>
-      <tags>View</tags>
-      <tags>categoryTag:General</tags>
-    </sharedElements>
-    <sharedElements xsi:type="advanced:Area" xmi:id="_RZWILZfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.editorss" selectedElement="_RZWILpfrEe6C5ZFf2fSImA">
-      <children xsi:type="basic:PartStack" xmi:id="_RZWILpfrEe6C5ZFf2fSImA" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_RZWIL5frEe6C5ZFf2fSImA">
-        <tags>org.eclipse.e4.primaryDataStack</tags>
-        <tags>EditorStack</tags>
-        <tags>active</tags>
-        <tags>noFocus</tags>
-        <children xsi:type="basic:Part" xmi:id="_RZWIL5frEe6C5ZFf2fSImA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="data.opi" iconURI="platform:/plugin/org.yamcs.studio.editor.base/icons/file_opi.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.csstudio.opibuilder.OPIEditor&quot; name=&quot;data.opi&quot; partName=&quot;data.opi&quot; title=&quot;data.opi&quot; tooltip=&quot;trace/data.opi&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/trace/data.opi&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>removeOnHide</tags>
-          <tags>org.csstudio.opibuilder.OPIEditor</tags>
-          <tags>active</tags>
-        </children>
-      </children>
-    </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWIUpfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.explorer.view" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Explorer" iconURI="platform:/plugin/org.yamcs.studio.explorer/icons/eview16/filenav_nav.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewBundle" value="org.yamcs.studio.explorer"/>
-      <persistedState key="originalCompatibilityViewClass" value="org.yamcs.studio.explorer.ExplorerView"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xD;&#xA;&lt;lastRecentlyUsedFilters/>&#xD;&#xA;&lt;/view>"/>
-      <tags>View</tags>
-      <tags>categoryTag:Yamcs Server</tags>
-      <menus xmi:id="_RZWIU5frEe6C5ZFf2fSImA" elementId="org.yamcs.studio.explorer.view">
-        <tags>ViewMenu</tags>
-        <tags>menuContribution:menu</tags>
-      </menus>
-      <toolbar xmi:id="_RZWIYJfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.explorer.view"/>
-    </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWIZJfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.views.ContentOutline" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Outline" iconURI="platform:/plugin/org.eclipse.ui.views/icons/full/eview16/outline_co.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.views"/>
-      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.views.contentoutline.ContentOutline"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
-      <tags>View</tags>
-      <tags>categoryTag:General</tags>
-      <menus xmi:id="_RZWIZZfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.views.ContentOutline">
-        <tags>ViewMenu</tags>
-        <tags>menuContribution:menu</tags>
-      </menus>
-      <toolbar xmi:id="_RZWIZ5frEe6C5ZFf2fSImA" elementId="org.eclipse.ui.views.ContentOutline"/>
-    </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWIapfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.views.PropertySheet" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Properties" iconURI="platform:/plugin/org.eclipse.ui.views/icons/full/eview16/prop_ps.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.views"/>
-      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.views.properties.PropertySheet"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
-      <tags>View</tags>
-      <tags>categoryTag:General</tags>
-      <menus xmi:id="_RZWIa5frEe6C5ZFf2fSImA" elementId="org.eclipse.ui.views.PropertySheet">
-        <tags>ViewMenu</tags>
-        <tags>menuContribution:menu</tags>
-      </menus>
-      <toolbar xmi:id="_RZWIcJfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.views.PropertySheet"/>
-    </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWIeJfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.console.ConsoleView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Console" iconURI="platform:/plugin/org.eclipse.ui.console/icons/full/cview16/console_view.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.console"/>
-      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.console.ConsoleView"/>
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
-      <tags>View</tags>
-      <tags>categoryTag:General</tags>
-      <menus xmi:id="_RZWIeZfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.console.ConsoleView">
-        <tags>ViewMenu</tags>
-        <tags>menuContribution:menu</tags>
-      </menus>
-      <toolbar xmi:id="_RZWIe5frEe6C5ZFf2fSImA" elementId="org.eclipse.ui.console.ConsoleView"/>
-    </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWIhZfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.editor.base.views.FunctionsView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Function Reference" iconURI="platform:/plugin/org.yamcs.studio.editor.base/icons/eview16/formula-viewer-16.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewBundle" value="org.yamcs.studio.editor.base"/>
-      <persistedState key="originalCompatibilityViewClass" value="org.yamcs.studio.editor.base.views.FunctionsView"/>
-      <tags>View</tags>
-      <tags>categoryTag:Other</tags>
-    </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWIhpfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.views.ProgressView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Progress" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/pview.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.ide"/>
-      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.progress.ProgressView"/>
-      <tags>View</tags>
-      <tags>categoryTag:General</tags>
-    </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWIh5frEe6C5ZFf2fSImA" elementId="org.eclipse.ui.views.minimap.MinimapView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Minimap" iconURI="platform:/plugin/org.eclipse.ui.workbench.texteditor/icons/full/eview16/minimap.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewBundle" value="org.eclipse.ui.workbench.texteditor"/>
-      <persistedState key="originalCompatibilityViewClass" value="org.eclipse.ui.internal.views.minimap.MinimapView"/>
-      <tags>View</tags>
-      <tags>categoryTag:General</tags>
-    </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWIiJfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.archive.ArchiveView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Archive" iconURI="platform:/plugin/org.yamcs.studio.archive/icons/eview16/archive.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewBundle" value="org.yamcs.studio.archive"/>
-      <persistedState key="originalCompatibilityViewClass" value="org.yamcs.studio.archive.ArchiveView"/>
-      <tags>View</tags>
-      <tags>categoryTag:Yamcs Server</tags>
-    </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWIiZfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.eventlog.EventLogView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Event Log" iconURI="platform:/plugin/org.yamcs.studio.eventlog/icons/eview16/event-log.gif" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewBundle" value="org.yamcs.studio.eventlog"/>
-      <persistedState key="originalCompatibilityViewClass" value="org.yamcs.studio.eventlog.EventLogView"/>
-      <tags>View</tags>
-      <tags>categoryTag:Yamcs Server</tags>
-    </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWIipfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.commanding.stack.CommandStackView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Command Stack" iconURI="platform:/plugin/org.yamcs.studio.commanding/icons/eview16/tc_add.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewBundle" value="org.yamcs.studio.commanding"/>
-      <persistedState key="originalCompatibilityViewClass" value="org.yamcs.studio.commanding.stack.CommandStackView"/>
-      <tags>View</tags>
-      <tags>categoryTag:Yamcs Server</tags>
-    </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWIi5frEe6C5ZFf2fSImA" elementId="org.yamcs.studio.commanding.cmdhist.CommandHistoryView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Command History" iconURI="platform:/plugin/org.yamcs.studio.commanding/icons/eview16/tc.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewBundle" value="org.yamcs.studio.commanding"/>
-      <persistedState key="originalCompatibilityViewClass" value="org.yamcs.studio.commanding.cmdhist.CommandHistoryView"/>
-      <tags>View</tags>
-      <tags>categoryTag:Yamcs Server</tags>
-    </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_RZWIjJfrEe6C5ZFf2fSImA" elementId="org.yamcs.studio.links.LinksView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Links" iconURI="platform:/plugin/org.yamcs.studio.links/icons/eview16/synced.png" tooltip="" closeable="true">
-      <persistedState key="originalCompatibilityViewBundle" value="org.yamcs.studio.links"/>
-      <persistedState key="originalCompatibilityViewClass" value="org.yamcs.studio.links.LinksView"/>
-      <tags>View</tags>
-      <tags>categoryTag:Yamcs Server</tags>
-    </sharedElements>
-    <trimBars xmi:id="_RZWIjZfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.main.toolbar">
-      <children xsi:type="menu:ToolBar" xmi:id="_RZWIjpfrEe6C5ZFf2fSImA" elementId="group.application" toBeRendered="false">
-        <tags>toolbarSeparator</tags>
-        <children xsi:type="menu:ToolBarSeparator" xmi:id="_RZWIj5frEe6C5ZFf2fSImA" elementId="group.application" toBeRendered="false"/>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_RZWIkJfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.workbench.file">
-        <tags>Draggable</tags>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_RZWImZfrEe6C5ZFf2fSImA" elementId="additions" toBeRendered="false">
-        <tags>toolbarSeparator</tags>
-        <children xsi:type="menu:ToolBarSeparator" xmi:id="_RZWImpfrEe6C5ZFf2fSImA" elementId="additions" toBeRendered="false"/>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_RZWIn5frEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.editor.actionSet">
-        <tags>Draggable</tags>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_RZWIopfrEe6C5ZFf2fSImA" elementId="org.eclipse.search.searchActionSet">
-        <tags>Draggable</tags>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_RZWIpZfrEe6C5ZFf2fSImA" elementId="org.csstudio.opibuilder.OPIEditor">
-        <tags>Draggable</tags>
-      </children>
-      <children xsi:type="menu:ToolBar" xmi:id="_RZWIvpfrEe6C5ZFf2fSImA" elementId="group.editor" toBeRendered="false">
-        <tags>toolbarSeparator</tags>
-        <children xsi:type="menu:ToolBarSeparator" xmi:id="_RZWIv5frEe6C5ZFf2fSImA" elementId="group.editor" toBeRendered="false"/>
-      </children>
-      <children xsi:type="menu:ToolControl" xmi:id="_RZWIwJfrEe6C5ZFf2fSImA" elementId="PerspectiveSpacer" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.LayoutModifierToolControl">
-        <tags>stretch</tags>
-        <tags>SHOW_RESTORE_MENU</tags>
-      </children>
-    </trimBars>
-    <trimBars xmi:id="_RZWIwZfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.trim.status" side="Bottom">
-      <children xsi:type="menu:ToolControl" xmi:id="_RZWIwpfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.StatusLine" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim">
-        <tags>stretch</tags>
-      </children>
-      <children xsi:type="menu:ToolControl" xmi:id="_RZWIw5frEe6C5ZFf2fSImA" elementId="org.eclipse.ui.HeapStatus" toBeRendered="false" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim">
-        <tags>Draggable</tags>
-      </children>
-      <children xsi:type="menu:ToolControl" xmi:id="_RZWIxJfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.ProgressBar" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.StandardTrim">
-        <tags>Draggable</tags>
-      </children>
-    </trimBars>
-    <trimBars xmi:id="_RZWIxZfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.trim.vertical1" side="Left"/>
-    <trimBars xmi:id="_RZWIxpfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.trim.vertical2" side="Right"/>
   </children>
   <bindingTables xmi:id="_RZWIx5frEe6C5ZFf2fSImA" contributorURI="platform:/plugin/org.eclipse.ui.workbench" bindingContext="_RZWJa5frEe6C5ZFf2fSImA">
     <bindings xmi:id="_RZWIyJfrEe6C5ZFf2fSImA" keySequence="CTRL+F10" command="_RZWLW5frEe6C5ZFf2fSImA"/>
@@ -787,6 +447,7 @@
   <bindingTables xmi:id="_RZWJWZfrEe6C5ZFf2fSImA" elementId="org.eclipse.ui.genericeditor.genericEditorContext" bindingContext="_RZWJcZfrEe6C5ZFf2fSImA">
     <bindings xmi:id="_RZWJWpfrEe6C5ZFf2fSImA" keySequence="CTRL+SHIFT+G" command="_RZWLY5frEe6C5ZFf2fSImA"/>
     <bindings xmi:id="_RZWJW5frEe6C5ZFf2fSImA" keySequence="F3" command="_RZWLV5frEe6C5ZFf2fSImA"/>
+    <bindings xmi:id="_n4i3MH5hEfCOHdaNQPUmKA" keySequence="CTRL+SHIFT+P" command="_n4JOkX5hEfCOHdaNQPUmKA"/>
   </bindingTables>
   <bindingTables xmi:id="_RZWJXJfrEe6C5ZFf2fSImA" bindingContext="_RZWJdpfrEe6C5ZFf2fSImA"/>
   <bindingTables xmi:id="_RZWJXZfrEe6C5ZFf2fSImA" bindingContext="_RZWJd5frEe6C5ZFf2fSImA"/>
@@ -1400,6 +1061,12 @@
   <commands xmi:id="_RZWMI5frEe6C5ZFf2fSImA" elementId="AUTOGEN:::org.eclipse.team.ui.actionSet/org.eclipse.team.ui.ConfigureProject" commandName="Share Project..." description="Share the project with others using a version and configuration management system." category="_RZWMQ5frEe6C5ZFf2fSImA"/>
   <commands xmi:id="_RZWMJJfrEe6C5ZFf2fSImA" elementId="AUTOGEN:::org.eclipse.ui.texteditor.ruler.actions/org.eclipse.ui.texteditor.BookmarkRulerAction" commandName="Text Editor Bookmark Ruler Action" category="_RZWMQ5frEe6C5ZFf2fSImA"/>
   <commands xmi:id="_RZWMJZfrEe6C5ZFf2fSImA" elementId="AUTOGEN:::org.eclipse.ui.texteditor.ruler.actions/org.eclipse.ui.texteditor.SelectRulerAction" commandName="Text Editor Ruler Single-Click" category="_RZWMQ5frEe6C5ZFf2fSImA"/>
+  <commands xmi:id="_n4JOkX5hEfCOHdaNQPUmKA" elementId="org.eclipse.ui.genericeditor.gotoMatchingBracket" commandName="Go to Matching Bracket" description="Moves the cursor to the matching bracket" category="_RZWMQ5frEe6C5ZFf2fSImA"/>
+  <commands xmi:id="_n4JOkn5hEfCOHdaNQPUmKA" elementId="org.eclipse.ltk.ui.refactoring.commands.copyProject" commandName="Copy Project" category="_RZWMPJfrEe6C5ZFf2fSImA">
+    <parameters xmi:id="_n4JOk35hEfCOHdaNQPUmKA" elementId="org.eclipse.ltk.ui.refactoring.commands.copyProject.newName.parameter.key" name="The name of the new project." optional="false"/>
+    <parameters xmi:id="_n4JOlH5hEfCOHdaNQPUmKA" elementId="org.eclipse.ltk.ui.refactoring.commands.copyProject.newLocation.parameter.key" name="The location of the new project." optional="false"/>
+  </commands>
+  <commands xmi:id="_n4JOlX5hEfCOHdaNQPUmKA" elementId="org.eclipse.debug.ui.commands.console.clear" commandName="Clear Console" description="Clear Console" category="_RZWMNpfrEe6C5ZFf2fSImA"/>
   <addons xmi:id="_RZWMJpfrEe6C5ZFf2fSImA" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_RZWMJ5frEe6C5ZFf2fSImA" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_RZWMKJfrEe6C5ZFf2fSImA" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
