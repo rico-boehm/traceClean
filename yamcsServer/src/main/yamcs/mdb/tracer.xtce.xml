@@ -688,24 +688,6 @@
                 </CommandContainer>
             </MetaCommand>
             
-            <MetaCommand name="set_radio_silence" shortDescription="Stops all communication">
-                <BaseMetaCommand metaCommandRef="header">
-                    <ArgumentAssignmentList>
-                        <ArgumentAssignment argumentName="SYNC_1" argumentValue="0x42" />
-                        <ArgumentAssignment argumentName="SYNC_2" argumentValue="0xac" />
-                        <ArgumentAssignment argumentName="ID" argumentValue="0xa1" />
-                    </ArgumentAssignmentList>
-                </BaseMetaCommand>
-                <CommandContainer name="set_radio_silence">
-                    <EntryList>
-                        <FixedValueEntry binaryValue="ff" sizeInBits="8"></FixedValueEntry>
-                        <FixedValueEntry binaryValue="00" sizeInBits="8"></FixedValueEntry>
-                        <FixedValueEntry binaryValue="ff" sizeInBits="8"></FixedValueEntry>
-                    </EntryList>
-                    <BaseContainer containerRef="header"/>
-                </CommandContainer>
-            </MetaCommand>
-            
             <MetaCommand name="set_logging_rate" shortDescription="Sets the logging rate of the selected board">
                 <BaseMetaCommand metaCommandRef="header">
                     <ArgumentAssignmentList>

@@ -1273,3 +1273,22 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\ricob\Desktop
 
 !ENTRY org.eclipse.ui 2 2 2025-08-21 07:43:56.622
 !MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)
+!SESSION 2025-08-25 06:38:04.599 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 2 2025-08-25 06:38:13.463
+!MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)
+!SESSION 2025-08-25 06:57:43.937 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=21.0.7
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  C:\Users\ricob\Desktop\Code\yamcs-studio-1.7.9-win32.win32.x86_64\yamcs-studio-1.7.9\\plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_21.0.7.v20250502-0916/jre/bin\server\jvm.dll -Xmx2048m -Declipse.p2.unsignedPolicy=allow -Duser.timezone=GMT -Dosgi.requiredJavaVersion=17 -Dorg.eclipse.update.reconcile=false --add-modules=ALL-SYSTEM
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 C:\Users\ricob\Desktop\Code\yamcs-studio-1.7.9-win32.win32.x86_64\yamcs-studio-1.7.9\\plugins/org.eclipse.justj.openjdk.hotspot.jre.full.stripped.win32.x86_64_21.0.7.v20250502-0916/jre/bin\server\jvm.dll -Xmx2048m -Declipse.p2.unsignedPolicy=allow -Duser.timezone=GMT -Dosgi.requiredJavaVersion=17 -Dorg.eclipse.update.reconcile=false --add-modules=ALL-SYSTEM -data C:\Users\ricob\Desktop\Code\traceClean\gui
+
+!ENTRY org.eclipse.ui 2 2 2025-08-25 06:57:55.465
+!MESSAGE Invalid preference category path: org.eclipse.debug.ui.ConsolePreferencePage (bundle: org.eclipse.ui.console, page: org.eclipse.ui.internal.console.ansi.preferences.AnsiConsolePreferencePage)
